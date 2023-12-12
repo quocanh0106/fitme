@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "0d15e7aa-5fa3-402f-9583-456a18c58209": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/return-1_34f28720-68c5-4f74-8a8f-eba78d7b9604.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/return-0.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "69f54fd8-5154-4b83-b78e-8738f0267f54": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--21408263307573__69f54fd8-5154-4b83-b78e-8738f0267f54-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Thời hạn và tình trạng đổi trả",
+            "content": "<p>Tại Fitme, chúng tôi chấp nhận đổi trả với điều kiện sản phẩm chưa được mặc\/giặt hoặc bị tổn hại trong vòng 14 ngày sau khi bạn nhận được hàng. Tag vẫn được giữ nguyên, chưa bị tháo.<br\/><br\/>Việc đổi trả chỉ được chấp nhận khi sản phẩm đạt điêu chuẩn. Các sản phẩm không đáp ứng tiêu chí trên sẽ được gửi trả lại cho khách hàng.<br\/><br\/>Quá trình kiểm tra sẽ diễn ra từ 1-2 ngày. Kết quả kiểm tra sẽ được bộ phận CSKH thông báo qua email hoặc Zalo.<\/p>"
+          }
+        },
+        "b167e0ec-030c-40da-bb32-3408893ef2cb": {
+          "type": "item",
+          "settings": {
+            "title": "Hoàn tiền",
+            "content": "<p>Sau khi nhận được sản phẩm có yêu cầu hoàn tiền, bộ phận liên quan của Fitme sẽ tiến hành kiểm tra . Nếu tình trạng sản phẩm đạt tiêu chuẩn, Fitme sẽ tiến hành hoàn tiền.<\/p><p>Fitme sẽ hoàn lại số tiền hàng ( sau khi đã trừ phí ship) vào tài khoản mà bạn cung cấp tối đa trong 24h làm việc (không tính thứ 7 & Chủ Nhật) sau khi yêu cầu hoàn tiền được CSKH xác nhận<\/p>"
+          }
+        },
+        "template--21408263307573__69f54fd8-5154-4b83-b78e-8738f0267f54-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Các bước đổi trả hàng",
+            "content": "<p>1. Điền thông tin Đổi\/ Trả hàng vào Form bên dưới<\/p><p>2. Nhận cuộc gọi\/tin nhắn xác nhận từ Fitme về sản phẩm và thời gian nhận hàng<\/p><p>3. Ngay khi xác nhận chúng tôi sẽ gởi bạn đơn hàng mới (hoặc lấy đơn hàng về), bạn chỉ cần gởi hàng cần đổi\/trả cho shipper là được.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21408263307573__69f54fd8-5154-4b83-b78e-8738f0267f54-item-1",
+        "b167e0ec-030c-40da-bb32-3408893ef2cb",
+        "template--21408263307573__69f54fd8-5154-4b83-b78e-8738f0267f54-item-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "289c135d-2d0e-4507-b4e8-6d5dcb66d333": {
+      "type": "rich-text",
+      "blocks": {
+        "ffe81186-35c3-4c5a-ab42-4ebaf9d5e131": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Đăng ký đổi trả hàng",
+            "url": "shopify:\/\/pages\/contact",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ffe81186-35c3-4c5a-ab42-4ebaf9d5e131"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "80541916-3009-4008-a54b-a1184e2acb14": {
+      "type": "contact",
+      "blocks": {
+        "395f0232-086f-4bc8-a0e4-b86728cd9445": {
+          "type": "text",
+          "settings": {
+            "title": "Mã đơn hàng",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "5c86b660-fce0-4182-aeca-d0525047b4e6": {
+          "type": "text",
+          "settings": {
+            "title": "Lý do đổi\/trả sản phẩm",
+            "use_long_text": false,
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "395f0232-086f-4bc8-a0e4-b86728cd9445",
+        "5c86b660-fce0-4182-aeca-d0525047b4e6"
+      ],
+      "custom_css": [
+        ".subheading {font-size: 23px; color: #d02545;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "FORM ĐỔI\/TRẢ SẢN PHẨM",
+        "title": "",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0d15e7aa-5fa3-402f-9583-456a18c58209",
+    "69f54fd8-5154-4b83-b78e-8738f0267f54",
+    "289c135d-2d0e-4507-b4e8-6d5dcb66d333",
+    "80541916-3009-4008-a54b-a1184e2acb14"
+  ]
+}

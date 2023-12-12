@@ -1,0 +1,315 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "45f4a788-ab62-41c8-a7cb-b6a714470800": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21279861080373__45f4a788-ab62-41c8-a7cb-b6a714470800-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CÔNG NGHỆ VẢI FITME",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21279861080373__45f4a788-ab62-41c8-a7cb-b6a714470800-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21279861080373__45f4a788-ab62-41c8-a7cb-b6a714470800-heading-1",
+        "template--21279861080373__45f4a788-ab62-41c8-a7cb-b6a714470800-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/final_ngang_upscale_llFabric-and-Tech_Hero.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "39bdb241-1fd9-4472-9da9-c611ad82b6f0": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21279861080373__39bdb241-1fd9-4472-9da9-c611ad82b6f0-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-39.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "BUTTERY™",
+            "content": "<p>Buttery™ được phát triển để đáp ứng các nhu cầu cao cấp nhất khi tập Yoga, Pilates và Gym. Buttery Fabric mang đến cảm giác như làn da thứ 2. Sở hữu tất cả những đặc tính mà các Yogi yêu thích như thấm hút mồ hôi, co giãn bốn chiều, độ che phủ tuyệt vời với điểm cộng cuối cùng là cảm giác nhẹ, mềm mịn như bơ<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu mềm mịn<\/li><li>Thấm hút tốt<\/li><li>Co giãn 4 chiều<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vai-buttery",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21279861080373__39bdb241-1fd9-4472-9da9-c611ad82b6f0-image-1"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "dc41624a-3603-4744-b8f9-ba08d6a78479": {
+      "type": "media-with-text",
+      "blocks": {
+        "43c2efd8-4f57-4b49-91c6-f961305a9697": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-40.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "ULTRALIGHT™",
+            "content": "<p>Ultralight™ là dòng sản phẩm được yêu thích nhất của chúng tôi - với công nghệ dệt Ultralight tiên tiến, chúng tôi tạo ra loại chất liệu cực kỳ nhẹ và co giãn theo các chuyển động. Để tối ưu hóa tính linh hoạt khi tập luyện, chúng tôi đã bổ sung phương pháp xử lý làm mịn bề mặt, và công nghệ kháng khuẩn giúp sản phẩm bền bỉ theo thời gian<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu nhẹ, mướt<\/li><li>Co giãn nhẹ<\/li><li>Kết cấu bền chặt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vai-ultralight",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "43c2efd8-4f57-4b49-91c6-f961305a9697"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "b88345c6-d2d0-4828-a248-45fdca0704d7": {
+      "type": "media-with-text",
+      "blocks": {
+        "003ccf64-f01d-484b-b91a-a5c549a9d96a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-41_1.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "PERFORMANCE™",
+            "content": "<p>Perfomance™ là phiên bản cao cấp và hoàn thiện của loại chất liệu vải dành cho áo thể thao của chúng tôi. Hiện được thiết kế cải tiến với độ bền theo thời gian , độ co giãn cao hơn và cảm giác khi sờ vào siêu mượt. Chất liệu vải vải này đại diện cho các bài tập Gym, Cardio, Boxing cường độ cao và bền bỉ.<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu nhẹ, mướt<\/li><li>Co giãn 4 chiều<\/li><li>Thấm hút tốt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vải-performance",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "003ccf64-f01d-484b-b91a-a5c549a9d96a"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "063e3c3e-56a3-4676-8f32-36e25bd27445": {
+      "type": "media-with-text",
+      "blocks": {
+        "99267388-4b9a-4b0e-8378-d57b1abb4572": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-42.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "ESSENTIAL™",
+            "content": "<p>Essential™ được chúng tôi thiết kế đề cao tính đa dụng và linh hoạt. Chất liệu mỏng, nhẹ, co giãn 4 chiều này được ứng dụng rộng rãi trong các sản phẩm Áo thể thao chuyên biệt dành cho nữ. Khi mà có thể mặc from Studio to Street một cách thoải mái và tự tin nhất<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu nhẹ, mướt<\/li><li>Co giãn 4 chiều<\/li><li>Thấm hút tốt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vải-essential",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "99267388-4b9a-4b0e-8378-d57b1abb4572"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "90aaa477-1c83-4efb-b573-93483b539320": {
+      "type": "media-with-text",
+      "blocks": {
+        "e2fb3977-6576-45b1-b2ef-a7b2e1400b6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-43.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "COTTON RIBBED™",
+            "content": "<p>Cotton Ribbed™ có khả năng chống xù lông và có các sợi xơ dài độc đáo, giúp quần áo trở nên mềm mại hơn theo thời gian. Dòng cotton có các đường gân nhỏ. Cho độ co giãn gấp 6 lần so với kích thước ban đầu. <\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu nhẹ, mướt<\/li><li>Co giãn 4 chiều<\/li><li>Thấm hút tốt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vải-ribbed",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "e2fb3977-6576-45b1-b2ef-a7b2e1400b6a"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "d643b4cc-33fd-494a-a994-719c05d619ff": {
+      "type": "media-with-text",
+      "blocks": {
+        "40b4b39e-63c3-41e6-8e9f-0741eee9d486": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-44.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "MICROFIBER™",
+            "content": "<p>Microfiber™ dòng chất liệu mỏng nhẹ và cực kì bền của chúng tôi. Thích hợp cho các hoạt động thể chất cần tính bền bỉ như Chạy bộ, leo núi, trekking<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu nhẹ, mướt<\/li><li>Kết cấu bền chặt<\/li><li>Thấm hút tốt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vải-duralight",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "40b4b39e-63c3-41e6-8e9f-0741eee9d486"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "0782cef4-5aa2-4df4-91bd-12043f799b70": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21556067238197__0782cef4-5aa2-4df4-91bd-12043f799b70-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_web-46.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TERRY™",
+            "content": "<p>Terry™ là dòng vải mới với sự kết hợp của cảm giác mềm mịn khi sờ vào và độ dày lên đến 380gsm. Vải được dệt từ sợi Poly pha Cotton nên thoáng khí tự nhiên, sau đó được pha trộn với spandex để có đặc tính hút ẩm và co giãn. Kết quả là tạo ra một loại quần áo cực kỳ thoải mái nhưng bền bỉ, thích ứng với chuyển động của cơ thể.<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Dày dặn<\/li><li>Kết cấu bền chặt<\/li><li>Thấm hút tốt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
+            "link_text": "Xem sản phẩm",
+            "link_url": "shopify:\/\/collections\/vai-terry",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21556067238197__0782cef4-5aa2-4df4-91bd-12043f799b70-image-1"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "45f4a788-ab62-41c8-a7cb-b6a714470800",
+    "39bdb241-1fd9-4472-9da9-c611ad82b6f0",
+    "dc41624a-3603-4744-b8f9-ba08d6a78479",
+    "b88345c6-d2d0-4828-a248-45fdca0704d7",
+    "063e3c3e-56a3-4676-8f32-36e25bd27445",
+    "90aaa477-1c83-4efb-b573-93483b539320",
+    "d643b4cc-33fd-494a-a994-719c05d619ff",
+    "0782cef4-5aa2-4df4-91bd-12043f799b70"
+  ]
+}

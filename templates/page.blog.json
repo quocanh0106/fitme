@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "45f4a788-ab62-41c8-a7cb-b6a714470800": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/final_ngang_upscale_llFabric-and-Tech_Hero.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "f00671f4-4a99-4d01-ab5f-5ace2c2a529f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21705064481077__f00671f4-4a99-4d01-ab5f-5ace2c2a529f-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21705064481077__f00671f4-4a99-4d01-ab5f-5ace2c2a529f-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9eb46bf3-2e61-4716-a7b0-04e69023a315": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--21705064481077__9eb46bf3-2e61-4716-a7b0-04e69023a315-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "chuong-trinh-su-kien\/chuong-trinh-fitme-prize",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21705064481077__9eb46bf3-2e61-4716-a7b0-04e69023a315-article-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Bài viết nổi bật",
+        "content": "",
+        "link_url": "shopify:\/\/blogs\/chuong-trinh-su-kien\/chuong-trinh-fitme-prize",
+        "link_text": "Xem thêm",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "13d15bbe-e124-4c1d-9333-214f6ed3536c": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--21705064481077__13d15bbe-e124-4c1d-9333-214f6ed3536c-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21705064481077__13d15bbe-e124-4c1d-9333-214f6ed3536c-blog-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Chia sẻ giá trị",
+        "content": "",
+        "link_url": "shopify:\/\/blogs\/news",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "2483a0f0-5638-4441-95af-121ed238a8dd": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--21705064481077__2483a0f0-5638-4441-95af-121ed238a8dd-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "kiến-thức",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21705064481077__2483a0f0-5638-4441-95af-121ed238a8dd-blog-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Kiến thức về vải",
+        "content": "",
+        "link_url": "shopify:\/\/blogs\/kiến-thức",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "f5a04822-94d5-4869-a1c3-fe8ceb305245": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--21761765245237__f5a04822-94d5-4869-a1c3-fe8ceb305245-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "chuong-trinh-su-kien",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21761765245237__f5a04822-94d5-4869-a1c3-fe8ceb305245-blog-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Các chương trình đang diễn ra",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "45f4a788-ab62-41c8-a7cb-b6a714470800",
+    "f00671f4-4a99-4d01-ab5f-5ace2c2a529f",
+    "9eb46bf3-2e61-4716-a7b0-04e69023a315",
+    "13d15bbe-e124-4c1d-9333-214f6ed3536c",
+    "2483a0f0-5638-4441-95af-121ed238a8dd",
+    "f5a04822-94d5-4869-a1c3-fe8ceb305245"
+  ]
+}

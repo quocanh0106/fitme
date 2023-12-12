@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "388999c5-6125-42b5-be78-b2be82f70cc8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "ao-the-thao-nam",
+            "image": "shopify:\/\/shop_images\/ao_the_thao_nam.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "quan-short-the-thao-nam",
+            "image": "shopify:\/\/shop_images\/QUAN_SHORT_NAM.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "quan-jogger-nam",
+            "image": "shopify:\/\/shop_images\/QUAN_JOGGER_NAM.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-1",
+        "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-2",
+        "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-3"
+      ],
+      "custom_css": [
+        ".h2 {display: none;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        ".prose {font-size: 22px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": false,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h4",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "388999c5-6125-42b5-be78-b2be82f70cc8",
+    "banner",
+    "main"
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "404": {
+    "general": {
+      "title": "Không tìm thấy trang",
+      "continue_shopping": "Tiếp tục mua sắm"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nhập tên của bạn....",
+      "email": "Điền Email",
+      "message": "Bạn vui lòng cung cấp đầy đủ thông tin...",
+      "submit": "Gửi",
+      "success_message": "Yêu cầu của bạn đã được gửi đi thành công. Vui lòng chờ Fitme phản hồi nhé !"
+    }
+  },
+  "apps": {
+    "shopify_reviews": {
+      "leave_review": "Để lại đánh giá",
+      "review_count": {
+        "zero": "Sản phẩm này chưa có đánh giá",
+        "one": "Nó đã nhận được {{ count }} đánh giá.",
+        "other": "Nó đã nhận được {{ count }} đánh giá."
+      },
+      "review_info": "Sản phẩm này được xếp hạng {{ rating_value }} trong số {{ rating_max }} sao."
+    }
+  },
+  "blog": {
+    "general": {
+      "back_to_home": "Về trang chủ",
+      "empty_blog": "Blog này trống",
+      "view": "Xem",
+      "all_posts": "Tất cả những bài viết"
+    },
+    "post": {
+      "share": "Chia sẻ",
+      "written_by": "Bởi {{ author }}",
+      "tags": "Thẻ",
+      "continue_reading": "Đọc tiếp theo"
+    },
+    "comments": {
+      "name": "Tên",
+      "message": "Tin nhắn",
+      "submit": "Gửi",
+      "leave_comment": "Để lại một bình luận",
+      "moderated": "Tất cả các ý kiến ​​được kiểm duyệt trước khi đăng.",
+      "comment_sent": "Bình luận của bạn đã được gửi. Chúng tôi sẽ xuất bản nó sau một thời gian nữa vì blog của chúng tôi đã được kiểm duyệt.",
+      "comment_published": "Cảm nhận của bạn đã được xuất bản.",
+      "count": {
+        "zero": "{{ count }} nhận xét",
+        "one": "{{ count }} nhận xét",
+        "other": "{{ count }} nhận xét"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Giỏ hàng",
+      "empty": "Giỏ hàng đang trống",
+      "continue_shopping": "Tiếp tục mua sắm",
+      "weight": "Trọng lượng",
+      "total": "Tổng cộng",
+      "save_note": "Lưu",
+      "view_cart": "Xem giỏ hàng",
+      "subtotal": "Tổng phụ",
+      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link\">phí vận chuyển<\/a> được tính khi thanh toán",
+      "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế và phí vận chuyển được tính khi thanh toán",
+      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link\">Vận chuyển<\/a> được tính khi thanh toán.",
+      "taxes_and_shipping_at_checkout": "Thuế và phí vận chuyển được tính khi thanh toán",
+      "add_order_note": "Thêm ghi chú đặt hàng",
+      "edit_order_note": "Chỉnh sửa ghi chú đơn hàng",
+      "order_note": "Ghi chú đặt hàng",
+      "checkout": "Thủ tục thanh toán",
+      "we_accept": "Chúng tôi đồng ý"
+    },
+    "order": {
+      "product": "Sản phẩm",
+      "total": "Tổng cộng",
+      "quantity": "Số lượng",
+      "change_quantity": "Thay đổi số lượng",
+      "increase_quantity": "Tăng số lượng",
+      "decrease_quantity": "Giảm số lượng",
+      "remove": "Loại bỏ"
+    },
+    "shipping_estimator": {
+      "country": "Quốc gia",
+      "province": "Tỉnh\/Thành",
+      "estimate_shipping": "ước tính vận chuyển",
+      "zip": "Mã Bưu Chính",
+      "estimate": "Ước lượng",
+      "no_results": "Xin lỗi, chúng tôi không gửi đến địa chỉ của bạn.",
+      "one_result": "Có một mức phí vận chuyển cho địa chỉ của bạn:",
+      "multiple_results": "Có một số mức phí vận chuyển cho địa chỉ của bạn:",
+      "error": "Đã xảy ra một hoặc nhiều lỗi khi truy xuất mức phí vận chuyển:"
+    },
+    "free_shipping_bar": {
+      "limit_unreached_html": "Hãy chi thêm {{ remaining_amount }} để được giao hàng miễn phí!",
+      "limit_reached_html": "Bạn đủ điều kiện để được miễn phí vận chuyển."
+    }
+  },
+  "collection": {
+    "general": {
+      "continue_shopping": "Tiếp tục mua sắm"
+    },
+    "faceting": {
+      "filter_button": "Lọc",
+      "clear_filters": "Làm sạch tất cả",
+      "apply_filters": "Áp dụng",
+      "sort_by": "Sắp xếp theo",
+      "remove_filter": "Xóa bộ lọc \" {{ name }} \"",
+      "no_results": "Không có sản phẩm nào phù hợp với các bộ lọc đó.",
+      "price_range_to": "ĐẾN",
+      "price_filter_from": "Từ giá",
+      "price_filter_to": "Giá",
+      "availability_label": "Chỉ còn hàng"
+    }
+  },
+  "customer": {
+    "addresses": {
+      "zip": "Mã Bưu Chính",
+      "country": "Quốc gia",
+      "province": "Tỉnh",
+      "set_default": "Đặt địa chỉ mặc định",
+      "no_addresses": "Bạn chưa lưu bất kỳ địa chỉ nào.",
+      "add_address": "Thêm địa chỉ",
+      "edit_address": "Sửa địa chỉ",
+      "save_address": "Lưu địa chỉ",
+      "edit": "Biên tập",
+      "delete": "Xóa bỏ",
+      "default_address": "Địa chỉ mặc định",
+      "address_title": "Địa chỉ {{ position }}",
+      "delete_confirm": "Xóa địa chỉ này? Sau khi được xác nhận, hành động này không thể hoàn tác.",
+      "fill_form": "Vui lòng điền vào các thông tin bên dưới:",
+      "first_name": "Tên đầu tiên",
+      "last_name": "Họ",
+      "company": "Công ty",
+      "phone": "Số điện thoại",
+      "address1": "địa chỉ 1",
+      "address2": "Địa chỉ 2",
+      "city": "Thành phố"
+    },
+    "account": {
+      "welcome": "Chào mừng, {{first_name}}",
+      "tagline": "Xem tất cả các đơn đặt hàng của bạn và quản lý thông tin tài khoản của bạn.",
+      "orders": "Đơn đặt hàng",
+      "addresses": "Địa chỉ",
+      "logout": "Đăng xuất",
+      "no_orders": "Bạn chưa đặt bất kỳ đơn đặt hàng nào.",
+      "continue_shopping": "Tiếp tục mua sắm"
+    },
+    "login": {
+      "title": "Đăng nhập",
+      "password": "Mật khẩu",
+      "submit": "Đăng nhập",
+      "forgot_password": "Quên mật khẩu?",
+      "sign_up": "Đăng ký"
+    },
+    "recover_password": {
+      "title": "Khôi phục mật khẩu",
+      "submit": "Hồi phục",
+      "back_to_login": "Quay lại đăng nhập",
+      "success_message": "Một e-mail đã được gửi đến địa chỉ của bạn với hướng dẫn đặt lại mật khẩu."
+    },
+    "register": {
+      "title": "Đăng ký",
+      "first_name": "Tên đầu tiên",
+      "last_name": "Họ",
+      "password": "Mật khẩu",
+      "accepts_marketing": "Đăng ký nhận bản tin của chúng tôi",
+      "submit": "Tạo tài khoản",
+      "login": "Đăng nhập"
+    },
+    "activate_account": {
+      "title": "Kích hoạt tài khoản",
+      "instructions": "Nhập mật khẩu để tạo tài khoản của bạn:",
+      "password": "Mật khẩu",
+      "password_confirmation": "xác nhận mật khẩu",
+      "submit": "Kích hoạt",
+      "cancel": "Hủy bỏ"
+    },
+    "reset_password": {
+      "title": "Đặt lại mật khẩu",
+      "password": "Mật khẩu",
+      "password_confirmation": "xác nhận mật khẩu",
+      "submit": "Cài lại"
+    },
+    "order": {
+      "order": "Đặt hàng",
+      "order_name": "Đặt hàng {{name}}",
+      "view_details": "xem chi tiết đơn hàng",
+      "back": "Mặt sau",
+      "date": "Ngày",
+      "payment_status": "Tình trạng thanh toán",
+      "fulfillment_status": "Tình trạng hoàn thành",
+      "cancelled_on": "Đã hủy vào {{date}} . Lý do: {{reason}}",
+      "product": "Sản phẩm",
+      "quantity": "Số lượng",
+      "fulfillment_with_number": "Đơn đặt hàng của bạn đã được gửi vào {{date}} . Theo dõi lô hàng bằng số {{tracking_number}} .",
+      "fulfillment": "Đơn đặt hàng của bạn đã được gửi vào {{date}} .",
+      "track_shipment": "Vận chuyển ... Đơn hàng",
+      "subtotal": "Tổng phụ",
+      "discount": "Giảm giá",
+      "shipping": "Đang chuyển hàng",
+      "taxes_included": "Bao gồm thuế",
+      "taxes_excluded": "Đã bao gồm thuế",
+      "total_duties": "Nhiệm vụ",
+      "refunded_amount": "Số tiền được hoàn lại",
+      "total": "Tổng cộng",
+      "shipping_address": "Địa chỉ giao hàng",
+      "billing_address": "Địa chỉ thanh toán"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Tìm kiếm",
+      "terms": "Kết quả cho \" {{ terms }} \"",
+      "search_placeholder": "Tìm kiếm...",
+      "products": "Các sản phẩm",
+      "suggestions": "Đề xuất",
+      "collections": "Bộ sưu tập",
+      "posts": "Bài đăng trên blog",
+      "pages": "Trang",
+      "clear": "Thông thoáng",
+      "view_all": "Xem tất cả",
+      "view_all_results": "Xem tất cả kết quả",
+      "no_results": "Không có kết quả có thể được tìm thấy."
+    },
+    "results_count": {
+      "zero": "0 kết quả cho \" {{ terms }} \"",
+      "one": "1 kết quả cho \" {{ terms }} \"",
+      "other": "{{ count }} kết quả cho \" {{ terms }} \""
+    }
+  },
+  "gift_card": {
+    "general": {
+      "title": "Đây là thẻ quà tặng của bạn",
+      "copy": "Sao chép",
+      "print": "In",
+      "scan": "hoặc quét mã QR này",
+      "back_to_store": "Quay lại cửa hàng"
+    },
+    "issued": {
+      "remaining_amount": "Số tiền còn lại",
+      "out_of_html": "trong số {{ initial_value }}",
+      "redeem_instructions": "Sử dụng mã này để đổi thẻ quà tặng của bạn khi thanh toán:",
+      "code": "Mã thẻ quà tặng",
+      "expires_on": "Hết hạn vào: {{ expires_on }}",
+      "expired": "Thẻ quà tặng của bạn đã hết hạn hoặc đã bị vô hiệu hóa.",
+      "add_to_apple_wallet": "Thêm vào Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Tôi muốn gửi cái này như một món quà",
+      "email_label": "Người nhận E-mail",
+      "name_label": "Tên người nhận (tùy chọn)",
+      "send_on_label": "Gửi tiếp (tùy chọn)",
+      "message_label": "Tin nhắn (tùy chọn)"
+    }
+  },
+  "password": {
+    "general": {
+      "follow_us": "Theo chúng tôi",
+      "powered_by": "Cửa hàng này được cung cấp bởi",
+      "store_owner": "Chủ cửa hàng?",
+      "login": "Đăng nhập"
+    },
+    "storefront_access": {
+      "enter_password": "Nhập bằng mật khẩu",
+      "store_access": "Quyền truy cập cửa hàng",
+      "instructions": "Nhập mật khẩu bên dưới để truy cập cửa hàng",
+      "password": "Mật khẩu",
+      "enter_store": "Vào cửa hàng"
+    }
+  }
+}

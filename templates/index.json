@@ -1,0 +1,614 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "8bbb1918-5b9c-48be-a422-3dc9f53b9215": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02133_1_7a2c36e9-65c9-430e-85d0-fdaf0a2309e1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-yoga-dt.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "DESIGNED FOR YOGA",
+            "heading_tag": "h1",
+            "button_text": "Mua ngay",
+            "button_link": "shopify:\/\/collections\/vai-buttery",
+            "text_color": "#ffffff",
+            "button_background": "#d02545",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "8bbb1918-5b9c-48be-a422-3dc9f53b9215"
+      ],
+      "custom_css": [
+        ".subheading {font-size: 22px;}",
+        ".button {transform: scale(0.85);}",
+        ".h1 {font-size: 30px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); transform: translateY(20px);}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(NaN, NaN, NaN, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "7658cb65-1c7e-40d1-befc-d8abc8d7090c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21761763868981__7658cb65-1c7e-40d1-befc-d8abc8d7090c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "DÀNH CHO BẠN",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21761763868981__7658cb65-1c7e-40d1-befc-d8abc8d7090c-heading-1"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 28px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "eac02d77-1f9b-4375-a70a-946f92141c0e": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ban_chay_bf71e84f-0aee-4ee7-87d1-a319dc5674b7.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/ban-chay",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bra_the_thao_afe873a3-326e-4b42-96cf-8470975bfab8.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/ao-sportbra",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quan_legging_1c420061-ff88-4feb-bcf0-c002e6cfc347.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/quan-legging-nu",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "cccd40a2-0ad3-472d-9e20-3e2fd62080b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hoodie_6e417c8b-7f0f-451b-9db1-8be62dca1bf7.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/hoodie-sweater",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-1",
+        "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-2",
+        "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-3",
+        "cccd40a2-0ad3-472d-9e20-3e2fd62080b2"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 300,
+        "mobile_row_height": 160,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "12996cfd-3e52-41c4-8e7e-a9ca9bbc4bb2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "66237287-530d-4cef-9186-60bf14b3329f": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Mua ngay",
+            "url": "shopify:\/\/collections\/danh-cho-yoga",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "66237287-530d-4cef-9186-60bf14b3329f"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/DSC02285_jpg_resize.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/DSC02289_d449bcfa-2903-4ea8-bd07-38d5663eb1e1.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "72e9cf0f-b16f-4d4e-bb7e-f84e53c80175": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h2 {font-weight: BOLD;}",
+        ".bold {font-size: 15px;}"
+      ],
+      "settings": {
+        "collection": "danh-cho-yoga",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Dành cho Yoga",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/danh-cho-yoga",
+        "link_text": "Xem thêm",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
+      "blocks": {
+        "item-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trang_chu_web-02.jpg",
+            "title": "ÁO KHOÁC NỮ",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/collections\/ao-khoac",
+            "link_text": "Mua hàng",
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trang_chu_web-01.jpg",
+            "title": "QUẦN LEGGING",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/collections\/quan-legging-nu",
+            "link_text": "Mua hàng",
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "3ffed108-43f8-475e-9305-c3781b1b16b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trang_chu_web-03.jpg",
+            "title": "SPORTSBRA",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/collections\/ao-sportbra",
+            "link_text": "Mua hàng",
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#d02545",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item-3",
+        "item-2",
+        "3ffed108-43f8-475e-9305-c3781b1b16b5"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".h5 {font-size: 18px; font-weight: bold; color: BLACK;}",
+        ".button.button--lg {transform: scale(0.7); position: relative; left: -20px; top: -20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 280,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "4335b66d-6b6e-470d-b7b3-3af441b9e63e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "842b1e7c-34db-4fd6-820d-c51c0d3f7756": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Khám phá ngay",
+            "url": "shopify:\/\/collections\/san-pham-nam",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "842b1e7c-34db-4fd6-820d-c51c0d3f7756"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/banner-nam_4d8500a2-47a2-4492-888d-a64fd3ec60d3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-nam-phone.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "90d23ea3-6226-4856-a5c7-da71b8f1881a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "e5687b89-4fdf-4e4e-b1de-b7298cdd98ab": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Mua ngay",
+            "url": "shopify:\/\/collections\/tat-ca-ao-nu",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "e5687b89-4fdf-4e4e-b1de-b7298cdd98ab"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/banner-nu.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-nu-phone_8bdf643c-176f-42d2-8045-e9d39aaaebac.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "e2f35e1e-f1bf-4b91-8d1d-82c99977d712": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h2 {font-weight: BOLD;}",
+        ".bold {font-size: 15px;}"
+      ],
+      "settings": {
+        "collection": "quan-legging-nu",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Quần Legging nữ",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/quan-legging-nu",
+        "link_text": "Xem thêm",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "f65b9b75-dac3-4ec0-8271-502b20960405": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".h2 {font-weight: bold;}",
+        ".bold {font-size: 15px;}"
+      ],
+      "settings": {
+        "collection": "san-pham-nam",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Sản phẩm Nam",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/san-pham-nam",
+        "link_text": "Xem thêm",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "social_widget_61632": {
+      "type": "social-widget",
+      "disabled": true,
+      "settings": {
+        "social_widget_id": "61632",
+        "social_product_id": "none",
+        "social_widget_type": "none"
+      }
+    },
+    "70ba7f81-4ac1-451d-b4f3-da8b81604dbf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "7843aeda-c986-47b2-8954-f91a31d30caf": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Tham gia Fitme Prize",
+            "url": "shopify:\/\/blogs\/chuong-trinh-su-kien\/thuong-gia-chuong-trinh-fitme-prize",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7843aeda-c986-47b2-8954-f91a31d30caf"
+      ],
+      "custom_css": [
+        ".button {background-color: WHITE; color: black;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled-1_a6ffab20-a6cd-4f0e-addd-37341861ff97.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/DSC02036_501ad8b5-57d2-4bfa-b231-e251a06568ca.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "fdf2455b-9d34-465c-807e-9a7e7a3d1bd5": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "fc5aa82e-1d76-4716-93af-abe12947a77a": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Tìm hiểu ngay",
+            "url": "shopify:\/\/pages\/about-fitme",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "fc5aa82e-1d76-4716-93af-abe12947a77a"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/BANNER-FITME.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/tai_sao_chon_fitme_24d1c27c-43a9-4a98-b635-ac8f0b78cb0e.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "179de396-4442-4067-8b15-f061c9b4eea7": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21761763868981__179de396-4442-4067-8b15-f061c9b4eea7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/san-pham-nu_8e1efeb5-dfb7-46e1-bb36-5e00461bf673.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "shopify:\/\/collections\/san-pham-nu",
+            "heading_tag": "h6",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761763868981__179de396-4442-4067-8b15-f061c9b4eea7-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/san-pham-nam_5f7ea203-719a-4092-a34e-368e3c991111.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "shopify:\/\/collections\/san-pham-nam",
+            "heading_tag": "h6",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21761763868981__179de396-4442-4067-8b15-f061c9b4eea7-collection-1",
+        "template--21761763868981__179de396-4442-4067-8b15-f061c9b4eea7-collection-2"
+      ],
+      "custom_css": [
+        ".h6 {display: none;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "7658cb65-1c7e-40d1-befc-d8abc8d7090c",
+    "eac02d77-1f9b-4375-a70a-946f92141c0e",
+    "12996cfd-3e52-41c4-8e7e-a9ca9bbc4bb2",
+    "72e9cf0f-b16f-4d4e-bb7e-f84e53c80175",
+    "media-grid",
+    "4335b66d-6b6e-470d-b7b3-3af441b9e63e",
+    "90d23ea3-6226-4856-a5c7-da71b8f1881a",
+    "e2f35e1e-f1bf-4b91-8d1d-82c99977d712",
+    "f65b9b75-dac3-4ec0-8271-502b20960405",
+    "social_widget_61632",
+    "70ba7f81-4ac1-451d-b4f3-da8b81604dbf",
+    "fdf2455b-9d34-465c-807e-9a7e7a3d1bd5",
+    "179de396-4442-4067-8b15-f061c9b4eea7"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "b5ae20bb-fdb9-4cb9-93ae-aff37353a4a0": {
+      "type": "rich-text",
+      "blocks": {
+        "7e5ded0f-1677-457c-b885-ed4d633fe364": {
+          "type": "heading",
+          "settings": {
+            "text": "Tham gia  FITME PRIZE - Nhận ngay nhiều phần quà hấp dẫn 🎉",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "89dbb724-88e2-48f5-93f1-55272f68eaef": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Tham gia ngay",
+            "url": "shopify:\/\/blogs\/chuong-trinh-su-kien\/thuong-gia-chuong-trinh-fitme-prize",
+            "background": "#ffffff",
+            "text_color": "#d02545"
+          }
+        }
+      },
+      "block_order": [
+        "7e5ded0f-1677-457c-b885-ed4d633fe364",
+        "89dbb724-88e2-48f5-93f1-55272f68eaef"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#d02545",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Fitme Sportswear",
+            "content": "<p>Thương hiệu thời trang thể thao với sứ mệnh trở thành một người bạn đồng hành, truyền động lực cho giới trẻ phá vỡ những thói quen cũ. Bắt tay vào việc tập luyện thể thao để tăng cường sức khỏe bản thân.<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "7120f8ae-b9a5-4c52-8346-4e526a8672a8": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-service",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Đăng ký & Nhận 10% Off",
+            "content": "<p>Kết nối với Fitme để tham gia chương trình Fitme Athlete và cập nhật nhanh nhất các chương trình khuyến mãi của chúng tôi<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "links",
+        "7120f8ae-b9a5-4c52-8346-4e526a8672a8",
+        "newsletter"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "b5ae20bb-fdb9-4cb9-93ae-aff37353a4a0",
+    "footer"
+  ]
+}

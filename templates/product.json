@@ -1,0 +1,468 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "efb0fc9f-395e-4547-bf99-ea74254aa238": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Màu sắc",
+            "option_value_metafield": "custom.variation_value",
+            "products": "{{ product.metafields.custom.variation_product.value }}",
+            "color_mode": "color"
+          }
+        },
+        "981ca8f2-bd63-4169-bf90-0bab72d4f793": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": "size-chart"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "d111391f-9a17-4a1c-8849-2d2a6e15c645": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-box",
+            "icon_width": 24,
+            "title": "Vận chuyển",
+            "content": "<p>Miễn phí ship cho đơn hàng từ <strong>300.000 VNĐ<\/strong> trở lên<\/p>",
+            "background": "#eaf2ed",
+            "text_color": "#004f22"
+          }
+        },
+        "9c302d3d-8947-4f86-a564-4fb3e546407c": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-percent",
+            "icon_width": 24,
+            "title": "Mã giảm giá",
+            "content": "<p>Nhập mã <strong>FITMENEW <\/strong>để được giảm giá 10% cho đơn hàng đầu tiên<\/p>",
+            "background": "#ffecec",
+            "text_color": "#510000"
+          }
+        },
+        "d59febd3-132f-4a14-af33-d277393e4953": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quần legging dài vạt xéo Cover23 biểu tượng của sự tự tin và phóng khoáng trong phong cách cá nhân. <\/p><p>Được thiết kế để mang lại sự linh hoạt và thoải mái tối đa trong mọi hoạt động tập luyện. <\/p><p>Cho dù bạn đang thực hiện các bài tập yoga, gym, chạy bộ, hay đơn giản chỉ là muốn trải nghiệm sự thoải mái hàng ngày, quần tập legging chắc chắn sẽ là sự lựa chọn hoàn hảo.  <\/p>"
+          }
+        },
+        "9109fb43-01cf-4eab-96d7-d1d743313ce6": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Mô tả sản phẩm",
+            "content": "<ul><li> Chất liệu: 75% Nylon và 25% Spandex <\/li><li>Nylon pha sợi Spandex là thành phần của vải thun co giãn 4 chiều cao cấp, giúp bạn thoải mái khi luyện tập.<\/li><li>Thiết kế phối xéo giúp ôm gọn vòng eo và che khuyết điểm cho chị em <\/li><li>Logo vải thêu tinh tế, bền chắc theo thời gian. <\/li><\/ul>"
+          }
+        },
+        "5c194ed6-2953-4658-ab8a-94756bf25b25": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Chính sách vận chuyển và đổi trả",
+            "content": "<ul><li>Miễn phí vận chuyển cho đơn hàng từ 300.000 VNĐ<\/li><li>Hỗ trợ đổi trả hàng trong vòng 14 ngày với điều kiện đồ chưa vứt tag hoặc đã sử dụng<\/li><\/ul>"
+          }
+        },
+        "9f7e9310-d9b0-4bae-af01-ef439a17dd2e": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Hướng dẫn sử dụng và bảo quản",
+            "content": "<ul><li> Nên giặt sản phẩm trước khi sử dụng. <\/li><li>Chỉ giặt tay và không nên chà mạnh bằng bàn chải có sợi cứng.<\/li><li>Không ủi sản phẩm ở nhiệt độ cao vì có thể làm hư hại chất liệu vải.<\/li><li>Không nên sử dụng chất giặt tẩy. <\/li><li>Không nên ngâm chung với trang phục ra bị màu. <\/li><li>Tránh phơi với ánh nắng trực tiếp.<\/li><\/ul>"
+          }
+        },
+        "10498563-8d61-4ccf-bb31-e468e87ccbbb": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "efb0fc9f-395e-4547-bf99-ea74254aa238",
+        "981ca8f2-bd63-4169-bf90-0bab72d4f793",
+        "quantity_selector",
+        "buy_buttons",
+        "d111391f-9a17-4a1c-8849-2d2a6e15c645",
+        "9c302d3d-8947-4f86-a564-4fb3e546407c",
+        "d59febd3-132f-4a14-af33-d277393e4953",
+        "9109fb43-01cf-4eab-96d7-d1d743313ce6",
+        "5c194ed6-2953-4658-ab8a-94756bf25b25",
+        "9f7e9310-d9b0-4bae-af01-ef439a17dd2e",
+        "10498563-8d61-4ccf-bb31-e468e87ccbbb"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "9f4f58e590a838fef2de": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "12b35c17-ea59-4f54-a9ec-57f684ab8ca8": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/360-view.png",
+            "mobile_icon_width": 24,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Co giãn 360°",
+            "content": "<p>Chất vải ôm sát cơ thể, mang lại cho bạn sự thoải mái và tự do vận động<\/p>"
+          }
+        },
+        "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/breathable.png",
+            "mobile_icon_width": 24,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Thoáng khí",
+            "content": "<p>Mồ hôi thoát ra nhanh chóng thông qua sợi vải giúp các bạn luôn khô thoáng trong suốt quá trình tập luyện<\/p>"
+          }
+        },
+        "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/bacteria.png",
+            "mobile_icon_width": 24,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Kháng khuẩn",
+            "content": "<p>Vải được phủ 1 lớp kháng khuẩn cao cấp giúp ngăn ngừa mùi hôi trong và sau khi vận động<\/p>"
+          }
+        },
+        "58031069-e6f9-4fea-a3e1-64ab0028fad3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/feather.png",
+            "mobile_icon_width": 24,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Siêu mịn",
+            "content": "<p>Mang đến cho bạn cảm giác mềm mịn chưa từng có, mặc như chưa mặc<\/p>"
+          }
+        },
+        "db560b33-20a1-447f-8632-de2717379a8c": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/uv-protection.png",
+            "mobile_icon_width": 24,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Chống tia UV",
+            "content": "<p>Ngăn cản các bức xạ từ ánh sáng mặt trời có hại cho da như tia UVA và UVB<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-1",
+        "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-2",
+        "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-3",
+        "58031069-e6f9-4fea-a3e1-64ab0028fad3",
+        "db560b33-20a1-447f-8632-de2717379a8c"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4507000a-3862-478b-8376-ad2eb583ef38": {
+      "type": "media-with-text",
+      "blocks": {
+        "cf1c079a-c40b-485c-9483-8002527a9f39": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/qdcv cut.mov",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/textile.png",
+            "icon_width": 60,
+            "subheading": "",
+            "title": "Buttery™",
+            "content": "<p>Chất vải co giãn 4 chiều, mềm mịn mang lại cảm giác như làn da thứ 2. <\/p><p><br\/><strong>CHI TIẾT <\/strong><br\/>- Thiết kế quần legging lửng phối xéo giúp khoe được vòng eo thon gọn <br\/>- Quần có chun nâng mông khiến cho vòng 3 căng tròn quyến rũ <br\/>- Quần Legging phối xéo mang tính thời trang cao và tích hợp các tính năng trong tập luyện <br\/>- Thoáng khí và mềm mịn với cảm giác như bơ <br\/>- 75% Nylon, 25% Spandex <\/p><p><br\/><strong>ĐƯỢC THIẾT KẾ CHO: <\/strong><br\/>Tập luyện cường độ trung bình, tập gym,  yoga, chạy bộ, đi bộ đường dài, đi bộ và mặc ở nhà<\/p><p><a href=\"\/pages\/fabric-tech\" target=\"_blank\" title=\"Fabric Tech\">Tìm hiểu thêm về các loại vải của Fitme 🡸<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ededed",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "cf1c079a-c40b-485c-9483-8002527a9f39"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold; font-size: 22px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "63f2c91a-8fa3-442d-92d5-31f537324218": {
+      "type": "rich-text",
+      "blocks": {
+        "438afa20-a694-48f9-9a3c-7348f4aba62f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "1afb4488-3a8c-4498-9843-5a6e2486bbcb": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--21596126478645__63f2c91a-8fa3-442d-92d5-31f537324218-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "HỖ TRỢ TẬP LUYỆN",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21596126478645__63f2c91a-8fa3-442d-92d5-31f537324218-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>- Chất liệu co giãn giúp tạo sự ôm sát cơ thể và linh hoạt trong luyện tập<br\/>- Thoáng khí để giúp kiểm soát nhiệt độ cơ thể và thoát mồ hôi, ngăn chặn cảm giác ẩm và bí bách<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "438afa20-a694-48f9-9a3c-7348f4aba62f",
+        "1afb4488-3a8c-4498-9843-5a6e2486bbcb",
+        "template--21596126478645__63f2c91a-8fa3-442d-92d5-31f537324218-heading-1",
+        "template--21596126478645__63f2c91a-8fa3-442d-92d5-31f537324218-richtext-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ededed",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ad4b6357-1618-4bd4-8bec-759a1aa1efd4": {
+      "type": "rich-text",
+      "blocks": {
+        "55d1efa0-50ea-42a9-839d-5897ace9911f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-5.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "ca5cd5fc-5ee8-45fd-a353-94c6306fcdcf": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--21596126478645__ad4b6357-1618-4bd4-8bec-759a1aa1efd4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "TÔN DÁNG",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21596126478645__ad4b6357-1618-4bd4-8bec-759a1aa1efd4-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>- Thiết kế ôm sát vòng 3, quần có chun mông khiến vòng 3 căng tròn đầy đặn<br\/>- Cạp quần phối xéo giúp ôm gọn vòng eo và che khuyết điểm cho chị em<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "55d1efa0-50ea-42a9-839d-5897ace9911f",
+        "ca5cd5fc-5ee8-45fd-a353-94c6306fcdcf",
+        "template--21596126478645__ad4b6357-1618-4bd4-8bec-759a1aa1efd4-heading-1",
+        "template--21596126478645__ad4b6357-1618-4bd4-8bec-759a1aa1efd4-richtext-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1700750451b055f8e5": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Có thể bạn sẽ thích",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9f4f58e590a838fef2de",
+    "12b35c17-ea59-4f54-a9ec-57f684ab8ca8",
+    "4507000a-3862-478b-8376-ad2eb583ef38",
+    "63f2c91a-8fa3-442d-92d5-31f537324218",
+    "ad4b6357-1618-4bd4-8bec-759a1aa1efd4",
+    "1700750451b055f8e5",
+    "related-products"
+  ]
+}

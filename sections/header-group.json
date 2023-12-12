@@ -1,0 +1,443 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Freeship Đơn Hàng Từ 300k",
+            "url": "shopify:\/\/pages\/chinh-sach-giao-hang"
+          }
+        },
+        "cdcfd27f-062c-431a-84bb-ad1b475eab7a": {
+          "type": "message",
+          "settings": {
+            "text": "Chương Trình Fitme Athlete",
+            "url": "shopify:\/\/pages\/fitme-athlete"
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "cdcfd27f-062c-431a-84bb-ad1b475eab7a"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 15,
+        "background": "#d02545",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "80dc94eb-6b1c-4133-81c4-185528b6234c": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Nữ",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/trang_chu_web-10_fe0b4250-b4cc-4acd-9795-c7a91ad8ebe1.jpg",
+            "image_heading_1": "Sportsbra",
+            "image_link_1": "shopify:\/\/collections\/ao-sportbra",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/trang_chu_web-11_a0654a27-5f3b-4296-b25a-569915656c95.jpg",
+            "image_heading_2": "Áo thể thao nữ",
+            "image_link_2": "shopify:\/\/collections\/ao-thể-thao",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/trang_chu_web-01_7fdd26ad-d34e-4e92-99ee-f46afeac1d68.jpg",
+            "image_heading_3": "Quần legging",
+            "image_link_3": "shopify:\/\/collections\/quần-legging",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "1237cb57-19ce-451c-8aaf-3db06d58e2bc": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "1daabc44-ef24-42e8-8e67-e08e389592f9": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "5ce32ce6-94c2-48ee-8db9-c7bf3c948d6c": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "db5b0753-6646-4a5b-a3df-c1ef955e7bf7": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "778d50bd-48bc-4dee-98a1-04fa8970d697": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "4dc2a022-7ca1-41e2-9c1e-b604e7d1a674": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "1905bcee-7e4d-49db-b36b-8609ee2f9db2": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "daf20585-3c8d-408e-a152-33840ab60113": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "a79fbb6b-1550-4d83-b569-8bcfd26347af": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Nam",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/banner_web-41_1.jpg",
+            "image_heading_1": "Áo Thể Thao",
+            "image_link_1": "shopify:\/\/collections\/tat-ca-ao-nam",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/banner_web-40.jpg",
+            "image_heading_2": "Quần short",
+            "image_link_2": "shopify:\/\/collections\/quan-short-the-thao-nam",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/DSC07829.jpg",
+            "image_heading_3": "Quần jogger",
+            "image_link_3": "shopify:\/\/collections\/quan-jogger-nam",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "cbe86348-329b-4228-99aa-fbe0d5bee0bf": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "0f39e3d5-1553-44b3-ac02-6eace316a112": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "f718d340-a7d2-4f15-bf86-d44b8d33e063": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "153fcf7f-4adc-424f-a18c-27ceb4a4f97f": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "48d79beb-fd2a-42f5-b70c-ea1b9a860c31": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "80dc94eb-6b1c-4133-81c4-185528b6234c",
+        "1237cb57-19ce-451c-8aaf-3db06d58e2bc",
+        "1daabc44-ef24-42e8-8e67-e08e389592f9",
+        "5ce32ce6-94c2-48ee-8db9-c7bf3c948d6c",
+        "db5b0753-6646-4a5b-a3df-c1ef955e7bf7",
+        "778d50bd-48bc-4dee-98a1-04fa8970d697",
+        "4dc2a022-7ca1-41e2-9c1e-b604e7d1a674",
+        "1905bcee-7e4d-49db-b36b-8609ee2f9db2",
+        "daf20585-3c8d-408e-a152-33840ab60113",
+        "a79fbb6b-1550-4d83-b569-8bcfd26347af",
+        "cbe86348-329b-4228-99aa-fbe0d5bee0bf",
+        "0f39e3d5-1553-44b3-ac02-6eace316a112",
+        "f718d340-a7d2-4f15-bf86-d44b8d33e063",
+        "153fcf7f-4adc-424f-a18c-27ceb4a4f97f",
+        "48d79beb-fd2a-42f5-b70c-ea1b9a860c31"
+      ],
+      "custom_css": [
+        ".bold {font-weight: bold;}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify:\/\/shop_images\/logo-01.png",
+        "logo_max_width": 220,
+        "logo_mobile_max_width": 125,
+        "menu": "main-menu",
+        "sidebar_menu": "main-menu",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_left_navigation_inline",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "rgba(0,0,0,0)",
+        "reduce_padding": false,
+        "background_opacity": 63,
+        "background_blur_radius": 6
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
