@@ -10059,18 +10059,9 @@ variant-inventory .range-inventory .processing {
 .overflow-auto {
   overflow: auto;
 }
-.-translate-y-1\/2, .-translate-y-\[125\%\] {
-  transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 
 .-translate-x-1\/2, .-translate-x-full {
-  transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-}
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
+  transform: translate(-50%,-50%);
 }
 .top-1\/2 {
   top: 50%;
@@ -10090,9 +10081,6 @@ variant-inventory .range-inventory .processing {
   }
   .lg\:flex {
       display: flex;
-  }
-  .lg\:translate-x-0, .lg\:translate-y-0 {
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
   .lg\:top-7 {
       top: 1.75rem;
