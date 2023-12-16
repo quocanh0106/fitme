@@ -27,7 +27,7 @@
     {%- if section.settings.title != blank or section.settings.content -%}
       <div class="prose">
         {%- if section.settings.title != blank -%}
-          <h2 class="h2">{{ section.settings.title }}</h2>
+          <{{ section.settings.heading_tag }} class="h2">{{ section.settings.title }}</{{ section.settings.heading_tag }}>
         {%- endif -%}
 
         {{- section.settings.content -}}
@@ -114,6 +114,34 @@
       "id": "title",
       "label": "Heading",
       "default": "Newsletter"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h1",
+          "label": "Heading 1"
+        },
+        {
+          "value": "h2",
+          "label": "Heading 2"
+        },
+        {
+          "value": "h3",
+          "label": "Heading 3"
+        },
+        {
+          "value": "h4",
+          "label": "Heading 4"
+        },
+        {
+          "value": "h5",
+          "label": "Heading 5"
+        }
+      ]
     },
     {
       "type": "richtext",

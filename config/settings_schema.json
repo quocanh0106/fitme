@@ -750,6 +750,22 @@
           }
         ],
         "default": "start"
+      },
+      {
+        "type": "header",
+        "content": "Tags"
+      },
+      {
+        "type": "text",
+        "id": "card_tags",
+        "label": "List tag to show",
+        "default": "Hot, Sale, New",
+        "info": "Exp: Hot, Sale, New"
+      },
+      {
+        "type": "color",
+        "id": "hot_color",
+        "label": "Hot color"
       }
     ]
   },

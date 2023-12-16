@@ -1,4 +1,5 @@
 <div class="container">
+  {{ discount_allocation.discount_application }} alo alo
   {%- if cart.item_count == 0 -%}
     <div class="empty-state">
       <div class="empty-state__icon-wrapper">
@@ -53,7 +54,9 @@
 
                     <td class="hidden align-center text-center text-subdued sm:table-cell">
                       <line-item-quantity class="v-stack justify-center gap-2">
+                        <button name="minus">-</button>
                         <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity != blank %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+                        <button name="add">+</button>
 
                         <span class="text-xs">
                           <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>

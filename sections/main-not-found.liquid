@@ -1,6 +1,6 @@
 <div class="not-found">
   <div class="prose text-center">
-    <h2 class="h4">{{ '404.general.title' | t }}</h2>
+    <{{ section.settings.heading_tag }} class="h4">{{ '404.general.title' | t }}</{{ section.settings.heading_tag }}>
     {%- capture button_content -%}{{ '404.general.continue_shopping' | t }}{%- endcapture -%}
     {%- render 'button', content: button_content, href: routes.all_products_collection_url, size: 'xl' -%}
   </div>
@@ -10,6 +10,36 @@
 {
   "name": "404",
   "class": "shopify-section--404",
-  "tag": "section"
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h1",
+          "label": "Heading 1"
+        },
+        {
+          "value": "h2",
+          "label": "Heading 2"
+        },
+        {
+          "value": "h3",
+          "label": "Heading 3"
+        },
+        {
+          "value": "h4",
+          "label": "Heading 4"
+        },
+        {
+          "value": "h5",
+          "label": "Heading 5"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}

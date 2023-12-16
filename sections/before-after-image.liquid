@@ -31,7 +31,7 @@ LIQUID
       {%- endif -%}
 
       {%- if section.settings.title != blank -%}
-        <h2 class="h2">{{ section.settings.title | escape }}</h2>
+        <{{ section.settings.heading_tag }} class="h2">{{ section.settings.title | escape }}</{{ section.settings.heading_tag }}>
       {%- endif -%}
 
       {{- section.settings.content -}}
@@ -139,6 +139,34 @@ LIQUID
       "id": "title",
       "label": "Heading",
       "default": "Before/after"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h1",
+          "label": "Heading 1"
+        },
+        {
+          "value": "h2",
+          "label": "Heading 2"
+        },
+        {
+          "value": "h3",
+          "label": "Heading 3"
+        },
+        {
+          "value": "h4",
+          "label": "Heading 4"
+        },
+        {
+          "value": "h5",
+          "label": "Heading 5"
+        }
+      ]
     },
     {
       "type": "richtext",

@@ -70,7 +70,9 @@ Supported variables
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
         <line-item-quantity class="h-stack justify-center gap-3">
+          <button name="minus">-</button>
           <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+          <button name="add">+</button>
 
           <span class="text-xs">
             <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
@@ -95,7 +97,9 @@ Supported variables
   {%- if show_desktop_quantity -%}
     <div class="line-item__actions text-subdued hidden sm:block">
       <line-item-quantity class="v-stack gap-2">
+        <button name="minus">-</button>
         <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+        <button name="add">+</button>
 
         <span class="text-xs text-center">
           <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>

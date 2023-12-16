@@ -1998,6 +1998,23 @@ var LineItemQuantity = class extends HTMLElement {
     super();
     this.addEventListener("change", this._onQuantityChanged);
     this.addEventListener("click", this._onRemoveLinkClicked);
+    this.add = this.querySelector('button[name="add"]');
+    this.minus = this.querySelector('button[name="minus"]');
+    this.input = this.querySelector('input');
+    this.add.addEventListener('click', () => {
+      this.input.value = parseInt(this.input.value) + 1;
+      this._onClickQuantityChanged();
+    })
+    this.minus.addEventListener('click', () => {
+      this.input.value = parseInt(this.input.value) - 1;
+      this._onClickQuantityChanged();
+    })
+  }
+  _onClickQuantityChanged() {
+    if (!this.input.hasAttribute("data-line-key")) {
+      return;
+    }
+    this._changeLineItemQuantity(this.input.getAttribute("data-line-key"), parseInt(this.input.value));
   }
   _onQuantityChanged(event) {
     if (!event.target.hasAttribute("data-line-key")) {
