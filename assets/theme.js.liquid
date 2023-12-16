@@ -4335,3 +4335,43 @@ export {
   throttle,
   waitForEvent
 };
+
+
+class ModalDialog extends HTMLElement {
+  constructor() {
+    super();
+    this.querySelectorAll('.close').forEach(button => {
+      if (this.querySelector('modal-dialog')) {
+        if (!this.querySelector('modal-dialog').contains(button)) {
+          button.addEventListener('click', this.hide.bind(this, !1));
+        }
+      } else {
+        button.addEventListener('click', this.hide.bind(this, !1));
+      }
+    });
+    this.addEventListener('keyup', blur => {
+      'ESCAPE' === blur.code.toUpperCase() && this.hide();
+    });
+    this.addEventListener('click', event => {
+      if (event.target === this) this.hide();
+    });
+    if(this.id == "popup-notify-cart") {
+      setTimeout(this.open.bind(this), 0)
+    }
+  }
+
+  open() {
+    document.body.classList.add('overflow-hidden');
+    this.classList.remove('hidden');
+  }
+
+  hide() {
+    document.body.classList.remove('overflow-hidden');
+    this.classList.add('hidden');
+  }
+}
+
+
+if (!customElements.get('modal-dialog')) {
+  customElements.define('modal-dialog', ModalDialog);
+}

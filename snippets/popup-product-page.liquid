@@ -1,0 +1,21 @@
+{% if settings.popup_combo %}
+  <modal-dialog id="popup-combo" class="hidden fixed w-full h-full bg-black bg-opacity-20 top-0 left-0 z-20">
+    <span class="text-grey-700 shadow-megamenu cursor-pointer bg-background w-10 h-10 flex items-center justify-center rounded-full absolute top-3 right-3 lg:top-5 lg:right-5 close">
+      {% render 'icon-close', class: 'w-6 h-6' %}
+    </span>
+  </modal-dialog>
+{% endif %}
+{% if settings.popup_upsell %}
+  <modal-dialog id="popup-upsell" class="hidden fixed w-full h-full bg-black bg-opacity-20 top-0 left-0 z-20">
+    <span class="text-grey-700 shadow-megamenu cursor-pointer bg-background w-10 h-10 flex items-center justify-center rounded-full absolute top-3 right-3 lg:top-5 lg:right-5 close">
+      {% render 'icon-close', class: 'w-6 h-6' %}
+    </span>
+  </modal-dialog>
+{% endif %}
+{% if settings.popup_recommend %}
+  <modal-dialog id="popup-recommend" class="hidden fixed w-full h-full bg-black bg-opacity-20 top-0 left-0 z-20">
+    <span class="text-grey-700 shadow-megamenu cursor-pointer bg-background w-10 h-10 flex items-center justify-center rounded-full absolute top-3 right-3 lg:top-5 lg:right-5 close">
+      {% render 'icon-close', class: 'w-6 h-6' %}
+    </span>
+  </modal-dialog>
+{% endif %}

@@ -160,6 +160,7 @@
         {%- endif -%}
       </div>
 
+
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
 

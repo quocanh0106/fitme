@@ -1410,6 +1410,14 @@ scroll-carousel {
   --badge-background: var(--on-sale-badge-background);
   --badge-color: var(--on-sale-badge-text);
 }
+.badge--on-new {
+  --badge-background: var(--on-new-badge-background);
+  --badge-color: var(--on-sale-badge-text);
+}
+.badge--on-hot {
+  --badge-background: var(--on-hot-badge-background);
+  --badge-color: var(--on-sale-badge-text);
+}
 
 .badge--current {
   --badge-background: var(--text-color) / .12;
@@ -2233,6 +2241,24 @@ scroll-carousel {
 .line-item__info line-item-quantity {
   margin-block-start: var(--spacing-1);
 }
+.quantity-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quantity-wrapper .quantity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+.quantity-wrapper span {
+  width: 100%;
+  display: block;
+}
 
 @media screen and (min-width: 700px) {
   .line-item {
@@ -2818,7 +2844,14 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 .product-card__title {
   line-height: 1.5;
 }
-
+.product_discount_condition {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #245eff;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 8px;
+}
 .product-card__quick-buy {
   position: absolute;
   bottom: var(--product-card-quick-buy-inset);
@@ -3865,6 +3898,9 @@ tfoot td {
   gap: var(--spacing-3);
   align-items: center;
   display: flex;
+}
+.text-with-icon strong {
+  color: var(--color-processing);
 }
 
 .text-with-icon > svg {
@@ -9933,4 +9969,172 @@ split-lines {
   -webkit-box-orient: vertical;
   display: -webkit-box;
   overflow: hidden;
+}
+
+variant-inventory .range-inventory {
+  margin-top: 10px;
+  background: #E0E0E0;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  height: 5px;
+  position: relative;
+}
+
+variant-inventory .range-inventory .processing {
+  width: var(--percent);
+  background-color: var(--color-processing);
+  max-width: 100%;
+  border-radius: 12px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0/var(--tw-bg-opacity));
+}
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+.hidden {
+  display: none;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.z-20 {
+  z-index: 20;
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.fixed {
+  position: fixed;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.bg-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.w-10 {
+  width: 2.5rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.top-3 {
+  top: 0.75rem;
+}
+.right-3 {
+  right: 0.75rem;
+}
+.absolute {
+  position: absolute;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.-translate-y-1\/2, .-translate-y-\[125\%\] {
+  transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-1\/2, .-translate-x-full {
+  transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+}
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+}
+.top-1\/2 {
+  top: 50%;
+}
+.left-1\/2 {
+  left: 50%;
+}
+.max-h-\[calc\(100vh_-_32px\)\] {
+  max-height: calc(100vh - 32px);
+}
+.max-w-\[calc\(100vw_-_32px\)\] {
+  max-width: calc(100vw - 32px);
+}
+@media (min-width: 1024px) {
+  .lg\:translate-x-0 {
+      --tw-translate-x: 0px;
+  }
+  .lg\:flex {
+      display: flex;
+  }
+  .lg\:translate-x-0, .lg\:translate-y-0 {
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .lg\:top-7 {
+      top: 1.75rem;
+  }
+  .lg\:right-7 {
+    right: 1.75rem;
+  }
+  .lg\:left-auto {
+    left: auto;
+  }
+  .shadow-megamenu {
+      --tw-shadow: 4px 4px 19px 0px hsla(0,0%,78%,.35);
+      --tw-shadow-colored: 4px 4px 19px 0px var(--tw-shadow-color);
+  }
+  .shadow-card, .shadow-megamenu {
+      box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+  }
+  .text-grey-700 {
+      --tw-text-opacity: 1;
+      color: rgb(77 77 77/var(--tw-text-opacity));
+  }
+  .bg-background {
+      --tw-bg-opacity: 1;
+      background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  }
+  .rounded-full {
+      border-radius: 9999px;
+  }
+  .justify-center {
+      justify-content: center;
+  }
+  .items-center {
+      align-items: center;
+  }
+  .cursor-pointer {
+      cursor: pointer;
+  }
+  .lg\:top-5 {
+    top: 1.25rem;
+  }
+  .lg\:right-5 {
+    right: 1.25rem;
+  }
+
 }

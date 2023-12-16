@@ -647,18 +647,6 @@
         "default": "rating"
       },
       {
-        "type": "checkbox",
-        "id": "show_sold_out_badge",
-        "label": "Show sold out badge",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_discount",
-        "label": "Show discount badge",
-        "default": true
-      },
-      {
         "type": "select",
         "id": "discount_mode",
         "label": "Show discount as...",
@@ -756,6 +744,18 @@
         "content": "Tags"
       },
       {
+        "type": "checkbox",
+        "id": "show_sold_out_badge",
+        "label": "Show sold out badge",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_discount",
+        "label": "Show discount badge",
+        "default": true
+      },
+      {
         "type": "text",
         "id": "card_tags",
         "label": "List tag to show",
@@ -766,6 +766,52 @@
         "type": "color",
         "id": "hot_color",
         "label": "Hot color"
+      },
+      {
+        "type": "color",
+        "id": "new_color",
+        "label": "New color"
+      }
+    ]
+  },
+  {
+    "name": "Product Page",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Popup combo/discount"
+      },
+      {
+        "type": "checkbox",
+        "id": "popup_combo",
+        "label": "Enable popup",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "popup_combo_heading",
+        "label": "Heading",
+        "default": "Mua thêm sản phẩm từ gói combo"
+      },
+      {
+        "type": "header",
+        "content": "Popup upsell"
+      },
+      {
+        "type": "checkbox",
+        "id": "popup_upsell",
+        "label": "Enable popup",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Popup recommend"
+      },
+      {
+        "type": "checkbox",
+        "id": "popup_recommend",
+        "label": "Enable popup",
+        "default": true
       }
     ]
   },
@@ -835,6 +881,34 @@
         "label": "Free shipping minimum amount",
         "info": "Indicate the value in your store main currency.",
         "default": 50
+      },
+      {
+        "type": "header",
+        "content": "Popup notify cart"
+      },
+      {
+        "type": "checkbox",
+        "id": "popup_notify_cart",
+        "label": "Enable popup",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "popup_notify_cart_heading",
+        "label": "Popup notify cart heading",
+        "default": "Đừng quên sản phẩn trong giỏ hàng"
+      },
+      {
+        "type": "text",
+        "id": "popup_notify_cart_description",
+        "label": "Popup notify cart description",
+        "default": "Còn vài sản phẩm trong giỏ hàng của bạn<br>Đừng đợi quá lâu, một số sản phẩm thông dụng sẽ sớm bị bán hết"
+      },
+      {
+        "type": "text",
+        "id": "popup_notify_cart_freeship",
+        "label": "Popup notify cart Freeship text",
+        "default": "FREESHIP TOÀN QUỐC - ĐỔI TRẢ MIỄN PHÍ"
       }
     ]
   },

@@ -158,6 +158,12 @@ Supported variables
       {%- endif -%}
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+
+      {% if product.metafields.custom.discount_condition != blank %}
+        <span class="product_discount_condition">
+          {{ product.metafields.custom.discount_condition }}
+        </span>
+      {% endif %}
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
