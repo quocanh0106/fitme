@@ -6,7 +6,7 @@
         "template--21761765081397__6e81414b-7a45-4e37-aaf1-2258c745c255-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "ao-sportbra",
+            "collection": "ao-bra-the-thao",
             "image": "shopify:\/\/shop_images\/bra_the_thao_afe873a3-326e-4b42-96cf-8470975bfab8.jpg",
             "subheading": "",
             "title": "",
@@ -90,6 +90,25 @@
         "heading_gradient": ""
       }
     },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".bold {font-size: 15px;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
     "banner": {
       "type": "collection-banner",
       "custom_css": [
@@ -112,30 +131,11 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
-    },
-    "main": {
-      "type": "main-collection",
-      "custom_css": [
-        ".bold {font-size: 15px;}"
-      ],
-      "settings": {
-        "products_per_page": 24,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "filter_layout": "sidebar",
-        "show_sort_by": true,
-        "show_filters": true,
-        "show_filter_group_name": false,
-        "show_color_swatch": false,
-        "show_empty_filter_values": false,
-        "show_filter_values_count": true,
-        "open_first_filter_group": false
-      }
     }
   },
   "order": [
     "6e81414b-7a45-4e37-aaf1-2258c745c255",
-    "banner",
-    "main"
+    "main",
+    "banner"
   ]
 }

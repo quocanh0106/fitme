@@ -7,8 +7,92 @@
         "content_width": "80ch"
       }
     },
+    "fcb4070b-97a4-437f-b6cf-574751d77047": {
+      "type": "rich-text",
+      "blocks": {
+        "ec48e88f-2ddf-472c-aec9-3b57481daf44": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-plane",
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "template--21761765310773__fcb4070b-97a4-437f-b6cf-574751d77047-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CHÍNH SÁCH GIAO HÀNG",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21761765310773__fcb4070b-97a4-437f-b6cf-574751d77047-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "FREE SHIP TOÀN QUỐC CHO MỌI HÓA ĐƠN TRÊN 300K"
+          }
+        }
+      },
+      "block_order": [
+        "ec48e88f-2ddf-472c-aec9-3b57481daf44",
+        "template--21761765310773__fcb4070b-97a4-437f-b6cf-574751d77047-heading-1",
+        "template--21761765310773__fcb4070b-97a4-437f-b6cf-574751d77047-subheading-1"
+      ],
+      "custom_css": [
+        ".bold {color: #d02545;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "eb05c52b-70ed-4868-b695-1679e0929efa": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21761765310773__eb05c52b-70ed-4868-b695-1679e0929efa-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ban-do-van-chuyen.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<ul><li>Fitme hỗ trợ ship COD (thanh toán sau khi nhận hàng)<br\/>toàn quốc bằng dịch vụ GHTK, Shopee Express,...<\/li><\/ul><p><\/p><ul><li>Khách hàng ở TP HCM sẽ nhận được sản phẩm trong<br\/>vòng 1 đến 2 ngày, ở các tỉnh thành khác sẽ nhận được sản phẩm trong vòng 3 đến 5 ngày.<\/li><li>Giao hàng trong giờ hành chính từ T2 đến T7.<\/li><li>Thời gian giao hàng được bắt đầu tính sau khi đơn hàng của quý khách được xác nhận thành công và được gửi đến email của quý khách.<\/li><li>Fitme nhận giao hỏa tốc trong ngày (chỉ áp dụng với các đơn hàng tại TPHCM)<\/li><\/ul><p><\/p><ul><li>Phí giao hàng : 30K<\/li><\/ul><p><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21761765310773__eb05c52b-70ed-4868-b695-1679e0929efa-image-1"
+      ],
+      "custom_css": [
+        ".prose {text-align: left;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
     "63a2bbe5-4606-417c-be72-47ffdd65c0e6": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -22,37 +106,12 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
-    },
-    "3f8f0a2c-312f-4363-8b73-ce3d1af2abfa": {
-      "type": "rich-text",
-      "blocks": {
-        "049996e2-9d2d-4cef-8b67-10b64af69174": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cs_giao_hang_2_c28631c7-507b-4b28-a65b-3afc05f44d81.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "049996e2-9d2d-4cef-8b67-10b64af69174"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "main",
-    "63a2bbe5-4606-417c-be72-47ffdd65c0e6",
-    "3f8f0a2c-312f-4363-8b73-ce3d1af2abfa"
+    "fcb4070b-97a4-437f-b6cf-574751d77047",
+    "eb05c52b-70ed-4868-b695-1679e0929efa",
+    "63a2bbe5-4606-417c-be72-47ffdd65c0e6"
   ]
 }

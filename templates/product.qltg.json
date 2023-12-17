@@ -59,6 +59,11 @@
           "settings": {
           }
         },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -145,6 +150,7 @@
         "efb0fc9f-395e-4547-bf99-ea74254aa238",
         "981ca8f2-bd63-4169-bf90-0bab72d4f793",
         "quantity_selector",
+        "inventory",
         "buy_buttons",
         "d111391f-9a17-4a1c-8849-2d2a6e15c645",
         "9c302d3d-8947-4f86-a564-4fb3e546407c",

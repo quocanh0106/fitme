@@ -21,7 +21,7 @@
         "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "quan-short-the-thao-nam",
+            "collection": "quan-short-tap-gym-nam",
             "image": "shopify:\/\/shop_images\/QUAN_SHORT_NAM.jpg",
             "subheading": "",
             "title": "",
@@ -36,7 +36,7 @@
         "template--21761764753717__388999c5-6125-42b5-be78-b2be82f70cc8-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "quan-jogger-nam",
+            "collection": "quan-jogger-tap-gym-nam",
             "image": "shopify:\/\/shop_images\/QUAN_JOGGER_NAM.jpg",
             "subheading": "",
             "title": "",
@@ -74,8 +74,25 @@
         "heading_gradient": ""
       }
     },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
         ".prose {font-size: 22px;}"
       ],
@@ -96,27 +113,11 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
-    },
-    "main": {
-      "type": "main-collection",
-      "settings": {
-        "products_per_page": 24,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "filter_layout": "sidebar",
-        "show_sort_by": true,
-        "show_filters": true,
-        "show_filter_group_name": false,
-        "show_color_swatch": false,
-        "show_empty_filter_values": false,
-        "show_filter_values_count": true,
-        "open_first_filter_group": false
-      }
     }
   },
   "order": [
     "388999c5-6125-42b5-be78-b2be82f70cc8",
-    "banner",
-    "main"
+    "main",
+    "banner"
   ]
 }

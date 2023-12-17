@@ -16,7 +16,7 @@ Supported variables
 * class: an extra class added on the container
 {%- endcomment -%}
 
-{%- assign badge_types = types | default: 'custom, sold_out, discount' | append: ', ' | append: settings.card_tags | split: ',' -%}
+{%- assign badge_types = types | default: 'custom, sold_out, discount' | split: ',' -%}
 {%- assign variant = product.selected_or_first_available_variant -%}
 
 {%- capture badges -%}
@@ -76,7 +76,6 @@ Supported variables
         {% endif %}
         {% for tag in product.tags %}
           {% if tag contains badge_type or badge_type contains tag %}
-            {{ tag }} - {{ badge_type }}
             <span class="badge {{ badgeClass }}">{{ badge_type }}</span>
           {% endif %}
         {% endfor %}

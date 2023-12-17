@@ -136,7 +136,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       {%- if request.page_type != 'password' -%}
         {%- sections 'footer-group' -%}
       {%- endif -%}
-      {% if cart.item_count > 0 %}
+      {% if cart.item_count > 0 and template != 'cart' %}
         {% render 'popup-notify-cart' %}
       {% endif %}
     </main>

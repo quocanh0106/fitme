@@ -14,8 +14,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/mua-gi-tai-fitme.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/mua-gi-tai-fitme-phone.jpg",
+        "image": "shopify:\/\/shop_images\/2_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/dth_3ddb1c8a-49d3-4733-9047-7a01b7a71bf1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -48,7 +48,7 @@
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "start",
         "background": "#ffffff",
         "background_gradient": "",
@@ -60,10 +60,10 @@
       "settings": {
         "collection": "",
         "products": [
-          "ao-bra-delta-2-day-ban-rong-den",
-          "quần-legging-zeta-fitme",
+          "ao-bra-gym-yoga-delta-den",
+          "quan-legging-dai-yoga-zeta-den",
           "ao-bra-theta",
-          "quần-legging-dui-fitme"
+          "quan-legging-dui-gym-nu-de"
         ],
         "full_width": true,
         "stack_products": false,
@@ -123,9 +123,10 @@
         "template--21788488761653__f94bc872-f491-445c-9c19-954645ee3250-image-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/review_2.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/quan-legging-dai-yoga-zeta-den",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -144,9 +145,10 @@
         "template--21788488761653__f94bc872-f491-445c-9c19-954645ee3250-image-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/review_3.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/quan-legging-dai-tap-gym-cover23-den",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -165,9 +167,10 @@
         "template--21788488761653__f94bc872-f491-445c-9c19-954645ee3250-image-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/review_1.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/ao-thun-tap-gym-nu-sigma-den",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -186,9 +189,10 @@
         "b36f02aa-ceb1-4f1f-b0df-bf1036206b8c": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/review_4.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/quan-jogger-the-thao-nu-den",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -214,8 +218,8 @@
       "settings": {
         "full_width": true,
         "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
+        "desktop_row_height": 320,
+        "mobile_row_height": 180,
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
@@ -226,19 +230,20 @@
         "template--21788488761653__1c071102-6e4a-4daf-8bfa-a530769754be-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/most_buy_legging_32e12f5f-a758-44c0-86fb-fe09a708639f.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "MOST-LOVED LEGGINGS",
-            "content": "<p>3 signature fabrics. So many best-selling silhouettes. If you’re looking for leggings that combine fashion with function, you’ve come to the right place.<\/p>",
+            "title": "QUẦN LEGGING ĐƯỢC YÊU THÍCH NHẤT",
+            "content": "<p>Tại Fitme, chúng mình có 2 mẫu quần legging đặc trưng là Quần legging cạp ngang và Quần legging cạp chéo.<\/p><p>Với thiết kế khác nhau, nên mỗi quần sẽ có 1 ưu điểm riêng, các nàng có thể tùy chọn để phù hợp với sở thích cá nhân nhé.<\/p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#1a1a1a",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
@@ -247,6 +252,9 @@
       },
       "block_order": [
         "template--21788488761653__1c071102-6e4a-4daf-8bfa-a530769754be-image-1"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
       ],
       "settings": {
         "full_width": false,
@@ -259,7 +267,8 @@
         "template--21788488761653__7de537f9-153a-4d27-bdb2-738c6b0c18e4-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "quan-legging-cap-ngang",
+            "image": "shopify:\/\/shop_images\/quan_legging_cap_ngang_fda213bf-b96a-447f-8e59-af6907f26322.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -267,13 +276,14 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "template--21788488761653__7de537f9-153a-4d27-bdb2-738c6b0c18e4-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "quan-legging-cap-cheo",
+            "image": "shopify:\/\/shop_images\/legging_cap_cheo_36dec9ae-f902-4327-b5f6-0ea737d1255a.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -281,13 +291,16 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "template--21788488761653__7de537f9-153a-4d27-bdb2-738c6b0c18e4-collection-1",
         "template--21788488761653__7de537f9-153a-4d27-bdb2-738c6b0c18e4-collection-2"
+      ],
+      "custom_css": [
+        ".h2 {display: none;}"
       ],
       "settings": {
         "full_width": true,
@@ -312,7 +325,7 @@
         "template--21788488761653__db014b05-78b7-4d95-8843-2967856e1704-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "CLASSIC COLORS",
+            "text": "TOP 4 MÀU PHỔ BIẾN",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -321,7 +334,7 @@
         "template--21788488761653__db014b05-78b7-4d95-8843-2967856e1704-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Timeless shades and essential neutrals to invest in now and wear forever.<\/p>"
+            "content": "<p>Bộ màu cơ bản, trung tính và không lỗi thời mà bạn cần có trong tủ đồ<\/p>"
           }
         }
       },
@@ -333,7 +346,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -344,9 +357,10 @@
         "template--21788488761653__1fab11bb-ed44-4404-b827-8c08144c53fb-image-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/den_0d73df29-006e-44e1-9203-01bd6de64b86.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/san-pham-mau-den",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -365,9 +379,10 @@
         "template--21788488761653__1fab11bb-ed44-4404-b827-8c08144c53fb-image-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/XAM_XANH_eee74770-f256-4552-bf31-4768fbc17814.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/san-pham-mau-xam-xanh",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -386,9 +401,10 @@
         "template--21788488761653__1fab11bb-ed44-4404-b827-8c08144c53fb-image-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/MIDNIGHT.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/san-pham-mau-midnight-blue",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -407,9 +423,10 @@
         "820a9c60-2290-4181-9f48-21603d1ea67f": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/SAND.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/san-pham-mau-sand",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -437,7 +454,7 @@
         "reduce_width": false,
         "desktop_row_height": 290,
         "mobile_row_height": 150,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": ""
       }
     }

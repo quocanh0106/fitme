@@ -53,6 +53,11 @@
           "settings": {
           }
         },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {

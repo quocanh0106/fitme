@@ -744,6 +744,16 @@
         "content": "Tags"
       },
       {
+        "type": "range",
+        "id": "badge_border_radius",
+        "min": 0,
+        "max": 60,
+        "step": 2,
+        "unit": "px",
+        "label": "Badge corner radius",
+        "default": 6
+      },
+      {
         "type": "checkbox",
         "id": "show_sold_out_badge",
         "label": "Show sold out badge",
@@ -812,6 +822,17 @@
         "id": "popup_recommend",
         "label": "Enable popup",
         "default": true
+      },
+      {
+        "type": "text",
+        "id": "popup_recommend_heading",
+        "label": "Heading",
+        "default": "Thêm vào giỏ hàng thành công"
+      },
+      {
+        "type": "product_list",
+        "id": "popup_recommend_product",
+        "label": "Popup recommend products"
       }
     ]
   },

@@ -6,13 +6,13 @@
         "8bbb1918-5b9c-48be-a422-3dc9f53b9215": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC02133_1_7a2c36e9-65c9-430e-85d0-fdaf0a2309e1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner-yoga-dt.webp",
+            "image": "shopify:\/\/shop_images\/banner_trang_chu_logo_259c21a8-4f54-4f24-8d88-79b640c96ec1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner_trang_chu_phone_7f568582-3d69-446c-bc66-e679bc2562fc.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "DESIGNED FOR YOGA",
+            "title": "",
             "heading_tag": "h1",
             "button_text": "Mua ngay",
             "button_link": "shopify:\/\/collections\/vai-buttery",
@@ -30,9 +30,7 @@
         "8bbb1918-5b9c-48be-a422-3dc9f53b9215"
       ],
       "custom_css": [
-        ".subheading {font-size: 22px;}",
-        ".button {transform: scale(0.85);}",
-        ".h1 {font-size: 30px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); transform: translateY(20px);}"
+        ".button {transform: scale(0.85);}"
       ],
       "settings": {
         "full_width": true,
@@ -80,7 +78,7 @@
         "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ban_chay_bf71e84f-0aee-4ee7-87d1-a319dc5674b7.jpg",
+            "image": "shopify:\/\/shop_images\/ban_chay_fca36896-aa38-4731-a6d7-27a365caee0b.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/ban-chay",
@@ -102,10 +100,10 @@
         "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bra_the_thao_afe873a3-326e-4b42-96cf-8470975bfab8.jpg",
+            "image": "shopify:\/\/shop_images\/bra_the_thao_c2be3ba8-8a3b-4128-9b40-d8837d99c2b0.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/ao-sportbra",
+            "link_url": "shopify:\/\/collections\/ao-bra-the-thao",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -124,7 +122,7 @@
         "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/quan_legging_1c420061-ff88-4feb-bcf0-c002e6cfc347.jpg",
+            "image": "shopify:\/\/shop_images\/quan_legging_b6648570-de13-4b41-bc18-e8f4a76c881d.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/quan-legging-nu",
@@ -146,7 +144,7 @@
         "cccd40a2-0ad3-472d-9e20-3e2fd62080b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hoodie_6e417c8b-7f0f-451b-9db1-8be62dca1bf7.jpg",
+            "image": "shopify:\/\/shop_images\/hoodie_6d29aa97-9139-4dac-b337-7263736c8f34.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/hoodie-sweater",
@@ -204,8 +202,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/DSC02285_jpg_resize.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/DSC02289_d449bcfa-2903-4ea8-bd07-38d5663eb1e1.jpg",
+        "image": "shopify:\/\/shop_images\/DSC02285.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/DSC02289_f49f42e0-1400-4c65-96f1-b26431d28231.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
@@ -226,7 +224,7 @@
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
@@ -253,7 +251,7 @@
             "image": "shopify:\/\/shop_images\/trang_chu_web-02.jpg",
             "title": "ÁO KHOÁC NỮ",
             "heading_tag": "h5",
-            "link_url": "shopify:\/\/collections\/ao-khoac",
+            "link_url": "shopify:\/\/collections\/ao-khoac-the-thao-nu",
             "link_text": "Mua hàng",
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_column_span": 2,
@@ -297,7 +295,7 @@
             "image": "shopify:\/\/shop_images\/trang_chu_web-03.jpg",
             "title": "SPORTSBRA",
             "heading_tag": "h5",
-            "link_url": "shopify:\/\/collections\/ao-sportbra",
+            "link_url": "shopify:\/\/collections\/ao-bra-the-thao",
             "link_text": "Mua hàng",
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_column_span": 2,
@@ -365,6 +363,36 @@
         "overlay_opacity": 0
       }
     },
+    "3b109530-bced-452d-b9f7-052652641945": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".h2 {font-weight: BOLD;}"
+      ],
+      "settings": {
+        "collection": "do-tap-gym",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Đồ tập nam",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/do-tap-gym",
+        "link_text": "Xem thêm",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "90d23ea3-6226-4856-a5c7-da71b8f1881a": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -374,7 +402,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Mua ngay",
-            "url": "shopify:\/\/collections\/tat-ca-ao-nu",
+            "url": "shopify:\/\/collections\/ao-tap-yoga",
             "background": "",
             "text_color": ""
           }
@@ -388,7 +416,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner-nu.jpg",
+        "image": "shopify:\/\/shop_images\/banner-nu_34980f30-17e4-48f1-a6b4-8522b59b5d67.jpg",
         "mobile_image": "shopify:\/\/shop_images\/banner-nu-phone_8bdf643c-176f-42d2-8045-e9d39aaaebac.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -410,7 +438,7 @@
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
@@ -513,7 +541,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Tìm hiểu ngay",
-            "url": "shopify:\/\/pages\/about-fitme",
+            "url": "shopify:\/\/pages\/kham-pha-fitme",
             "background": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)"
           }
@@ -527,8 +555,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/BANNER-FITME.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/tai_sao_chon_fitme_24d1c27c-43a9-4a98-b635-ac8f0b78cb0e.jpg",
+        "image": "shopify:\/\/shop_images\/2_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/dth_3ddb1c8a-49d3-4733-9047-7a01b7a71bf1.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -603,6 +631,7 @@
     "72e9cf0f-b16f-4d4e-bb7e-f84e53c80175",
     "media-grid",
     "4335b66d-6b6e-470d-b7b3-3af441b9e63e",
+    "3b109530-bced-452d-b9f7-052652641945",
     "90d23ea3-6226-4856-a5c7-da71b8f1881a",
     "e2f35e1e-f1bf-4b91-8d1d-82c99977d712",
     "f65b9b75-dac3-4ec0-8271-502b20960405",

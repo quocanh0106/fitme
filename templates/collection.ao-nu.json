@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -25,6 +26,138 @@
         "overlay_opacity": 0
       }
     },
+    "d6d10536-1223-49c8-b793-86df15070f65": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21761764557109__d6d10536-1223-49c8-b793-86df15070f65-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bra_the_thao_afe873a3-326e-4b42-96cf-8470975bfab8.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/ao-bra-the-thao",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761764557109__d6d10536-1223-49c8-b793-86df15070f65-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_n_sao_c_a_IMG_5879.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/ao-the-thao-nu",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761764557109__d6d10536-1223-49c8-b793-86df15070f65-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B_n_sao_c_a_IMG_5879_1.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/ao-khoac-the-thao-nu",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "103f0d5e-ed21-4be2-97dc-d3742a0f4881": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hoodie_6e417c8b-7f0f-451b-9db1-8be62dca1bf7.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/hoodie-sweater",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21761764557109__d6d10536-1223-49c8-b793-86df15070f65-image-1",
+        "template--21761764557109__d6d10536-1223-49c8-b793-86df15070f65-image-2",
+        "template--21761764557109__d6d10536-1223-49c8-b793-86df15070f65-image-3",
+        "103f0d5e-ed21-4be2-97dc-d3742a0f4881"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "e7756d3d-56fc-4264-806f-cf8f97c46a0f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21761764557109__e7756d3d-56fc-4264-806f-cf8f97c46a0f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "ÁO TẬP YOGA",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21761764557109__e7756d3d-56fc-4264-806f-cf8f97c46a0f-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -44,6 +177,8 @@
   },
   "order": [
     "banner",
+    "d6d10536-1223-49c8-b793-86df15070f65",
+    "e7756d3d-56fc-4264-806f-cf8f97c46a0f",
     "main"
   ]
 }

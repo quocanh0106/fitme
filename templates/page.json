@@ -299,6 +299,41 @@
         "full_width": false,
         "spacing": "none"
       }
+    },
+    "f0d60f1d-8153-4088-8710-c924a479ab4a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21761764000053__f0d60f1d-8153-4088-8710-c924a479ab4a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "BREAK THE STATUS QUO",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21761764000053__f0d60f1d-8153-4088-8710-c924a479ab4a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>© FITME 2023<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21761764000053__f0d60f1d-8153-4088-8710-c924a479ab4a-heading-1",
+        "template--21761764000053__f0d60f1d-8153-4088-8710-c924a479ab4a-richtext-1"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 25px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -310,6 +345,7 @@
     "063e3c3e-56a3-4676-8f32-36e25bd27445",
     "90aaa477-1c83-4efb-b573-93483b539320",
     "d643b4cc-33fd-494a-a994-719c05d619ff",
-    "0782cef4-5aa2-4df4-91bd-12043f799b70"
+    "0782cef4-5aa2-4df4-91bd-12043f799b70",
+    "f0d60f1d-8153-4088-8710-c924a479ab4a"
   ]
 }

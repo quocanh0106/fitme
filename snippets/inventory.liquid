@@ -25,16 +25,11 @@ Supported variables
     {%- if variant.available -%}
       {% assign count = variant.inventory_quantity | divided_by: 20 | plus: 5 %}
       <div {% unless variant_selected %}hidden{% endunless %} data-variant-id="{{ variant.id }}" >
-        {% if count < 20 %}
-          {% assign background = '#F73131' %}
-        {% elsif count < 50 %}
-          {% assign background = '#FEA53F' %}
-        {% else %}
-          {% assign background = '#00944A' %}
-        {% endif %}
-        <span class="text-with-icon" style="--color-processing: {{ background }};">{{- 'product.inventory.count_inventory_html' | t: count: count -}}</span>
-        <div class="range-inventory">
-          <div class="processing" style="--percent: {{ count | append: '%' }};--color-processing: {{ background }};"></div>
+
+        {% assign background = '247, 49, 49' %}
+
+        <div class="range-inventory"  style="--color-processing: {{ background }};">
+          <div class="processing text-center" style="--percent: 90%;--color-processing: {{ background }};"><span class="text-inventory" style="--color-processing: {{ background }};">{{- 'product.inventory.count_inventory_html' | t: count: count -}}</span></div>
         </div>
       </div>
     {%- elsif variant.incoming -%}

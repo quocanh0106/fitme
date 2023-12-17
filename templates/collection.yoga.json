@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -22,6 +23,31 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "3c50a8e3-a5c1-4778-8da6-991bf13194dd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21794063221045__3c50a8e3-a5c1-4778-8da6-991bf13194dd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "DÀNH CHO YOGA",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21794063221045__3c50a8e3-a5c1-4778-8da6-991bf13194dd-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "main": {
@@ -46,6 +72,7 @@
   },
   "order": [
     "banner",
+    "3c50a8e3-a5c1-4778-8da6-991bf13194dd",
     "main"
   ]
 }

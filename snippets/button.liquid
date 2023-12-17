@@ -103,7 +103,7 @@ Supported variables
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+  <button type="{{ type | default: 'button' }}" data-productpage="{{ productPage }}" {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
   </button>
 {%- endif -%}

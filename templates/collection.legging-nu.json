@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -23,6 +24,90 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "e2166a65-d8ec-49b5-9a4e-43225d66e5e1": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21761764884789__e2166a65-d8ec-49b5-9a4e-43225d66e5e1-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761764884789__e2166a65-d8ec-49b5-9a4e-43225d66e5e1-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quan_leggng_cap_ngang_cap_ngang.jpg_trang_legging.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/quan-legging-cap-ngang",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21761764884789__e2166a65-d8ec-49b5-9a4e-43225d66e5e1-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quan_leggng_cap_ngang_cap_cheo.jpg_trang_legging.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/quan-legging-cap-cheo",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21761764884789__e2166a65-d8ec-49b5-9a4e-43225d66e5e1-image-1",
+        "template--21761764884789__e2166a65-d8ec-49b5-9a4e-43225d66e5e1-image-2",
+        "template--21761764884789__e2166a65-d8ec-49b5-9a4e-43225d66e5e1-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "41bd16d4-ac41-4176-8379-3c5aed688912": {
@@ -107,6 +192,31 @@
         "background_gradient": ""
       }
     },
+    "a422c534-3d9f-4f76-bc2e-9f4de7b1e6b3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21761764884789__a422c534-3d9f-4f76-bc2e-9f4de7b1e6b3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "QUẦN LEGGING NỮ",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21761764884789__a422c534-3d9f-4f76-bc2e-9f4de7b1e6b3-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -129,7 +239,9 @@
   },
   "order": [
     "banner",
+    "e2166a65-d8ec-49b5-9a4e-43225d66e5e1",
     "41bd16d4-ac41-4176-8379-3c5aed688912",
+    "a422c534-3d9f-4f76-bc2e-9f4de7b1e6b3",
     "main"
   ]
 }

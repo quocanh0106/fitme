@@ -22,7 +22,7 @@
         "template--21396413481269__67319d19-772f-48d5-94e7-33ca9137e882-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Sweat, Training, Yoga, Community. We're here to inspire you to Break The Status Quo,<\/p>"
+            "content": "<p>Sweat, Training, Yoga, Community. We're here to inspire you to Break The Status Quo.<\/p>"
           }
         }
       },
@@ -229,20 +229,10 @@
           "settings": {
             "content": "<p>Mọi bộ sưu tập của FITME đều bắt nguồn từ xu thế thời trang mới nhất và tính năng chuyên biệt của đồ tập, bạn sẽ dễ dàng bắt gặp các Fitme Athlete khoác lên mình những bộ đồ tập như trang phục thường ngày. Chúng tôi, Fitme luôn dẫn đầu xu hướng đồ tập mặc đẹp ở mọi nơi<\/p>"
           }
-        },
-        "template--21396413481269__776cd6e3-9ad0-4386-9fae-bb2597f5f707-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
         }
       },
       "block_order": [
-        "template--21396413481269__776cd6e3-9ad0-4386-9fae-bb2597f5f707-richtext-1",
-        "template--21396413481269__776cd6e3-9ad0-4386-9fae-bb2597f5f707-heading-1"
+        "template--21396413481269__776cd6e3-9ad0-4386-9fae-bb2597f5f707-richtext-1"
       ],
       "settings": {
         "full_width": true,
