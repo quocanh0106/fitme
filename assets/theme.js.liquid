@@ -2847,17 +2847,6 @@ var ProductForm = class extends HTMLFormElement {
           cart: cartContent
         }
       }));
-      if (submitButtons[0].dataset.productpage == 'true') {
-        if (document.querySelector('#popup-combo')) {
-          document.querySelector('#popup-combo').classList.remove('hidden')
-        } 
-        if (document.querySelector('#popup-upsell')) {
-          document.querySelector('#popup-upsell').classList.remove('hidden')
-        }
-        if (document.querySelector('#popup-recommend')) {
-          document.querySelector('#popup-recommend').classList.remove('hidden')
-        }
-      }
     } else {
       this.dispatchEvent(new CustomEvent("cart:error", {
         bubbles: true,

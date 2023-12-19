@@ -2949,7 +2949,7 @@ model-media .shopify-model-viewer-ui {
 .product_discount_condition {
   font-size: 16px;
   line-height: 1.5;
-  color: #245eff;
+  color: var(--discount-condition-color);
   font-style: italic;
   font-weight: 500;
   margin-top: 8px;
@@ -10188,7 +10188,7 @@ variant-inventory .range-inventory {
 
 variant-inventory .range-inventory .processing {
   width: var(--percent);
-  background-color: rgb(var(--color-processing));
+  background: linear-gradient(to right, rgba(var(--color-processing),1) , rgba(var(--color-processing-2),1));
   max-width: 100%;
   border-radius: 12px;
   height: 15px;

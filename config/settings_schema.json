@@ -631,6 +631,12 @@
         "default": false
       },
       {
+        "type": "color",
+        "id": "discount_condition_color",
+        "label": "Discount condition color",
+        "default": "#245eff"
+      },
+      {
         "type": "select",
         "id": "product_rating_mode",
         "label": "Show product rating as...",

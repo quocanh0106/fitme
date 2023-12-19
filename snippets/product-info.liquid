@@ -201,7 +201,7 @@
 
       {%- when 'inventory' -%}
         <div class="product-info__inventory {{ block.shopify_attributes }}">
-          {%- render 'inventory', product: product, form_id: product_form_id -%}
+          {%- render 'inventory', product: product, form_id: product_form_id, block: block -%}
         </div>
 
       {%- when 'buy_buttons' -%}

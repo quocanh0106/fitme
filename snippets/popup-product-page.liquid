@@ -1,32 +1,4 @@
-{% if settings.popup_combo and product.metafields.custom.popup_upsell_condition != blank %}
-  <modal-dialog id="popup-combo" class="hidden fixed w-full h-full bg-black bg-opacity-20 top-0 left-0 z-20">
-    <div class="scroll-thin p-4 lg:p-10 rounded-xl shadow-popup max-w-[calc(100vw_-_32px)] max-h-[calc(100vh_-_32px)]  w-[620px] overflow-auto bg-background absolute top-1/2 left-1/2 z-30 -translate-x-1/2 -translate-y-1/2">
-      {% if settings.popup_combo_heading %}
-        <div class="popup-heading">{{ settings.popup_combo_heading }}      
-          <span class="close">
-            {% render 'icon-close', class: 'w-6 h-6' %}
-          </span>
-        </div>
-      {% else %}
-        <span class="text-grey-700 shadow-megamenu cursor-pointer bg-background w-6 h-6 flex items-center justify-center rounded-full absolute top-3 right-3 lg:top-2 lg:right-2 close">
-          {% render 'icon-close', class: 'w-6 h-6' %}
-        </span>
-      {% endif %}
-      <div class="popup-content">
-        {% if product.metafields.custom.popup_upsell_condition %}
-         <p class="pb-3 font-bold color-sale">{{ product.metafields.custom.popup_upsell_condition }}</p>
-        {% endif %}
 
-        {% for product in product.metafields.custom.popup_upsell_combo.value %}
-          {% render 'product-quickbuy', product: product %}
-        {% endfor %}
-      </div>
-      <div class="popup-footer">
-        <button type="button" class="close w-full text-center">Chỉ thêm sản phẩm hiện tại</button>
-      </div>
-    </div>
-  </modal-dialog>
-{% endif %}
 {% if settings.popup_upsell and product.metafields.custom.popup_upsell_heading != blank and product.metafields.custom.popup_upsell_description != blank %}
   <modal-dialog id="popup-upsell" class="hidden fixed w-full h-full bg-black bg-opacity-20 top-0 left-0 z-19">
     <div class="scroll-thin p-4 lg:p-10 rounded-xl shadow-popup max-w-[calc(100vw_-_32px)] max-h-[calc(100vh_-_32px)]  w-[620px] overflow-auto bg-background absolute top-1/2 left-1/2 z-30 -translate-x-1/2 -translate-y-1/2">
@@ -53,26 +25,10 @@
   </modal-dialog>
 {% endif %}
 {% if settings.popup_recommend %}
-  <modal-dialog id="popup-recommend" class="hidden fixed w-full h-full bg-black bg-opacity-20 top-0 left-0 z-18">
-    <div class="scroll-thin p-4 lg:p-10 rounded-xl shadow-popup max-w-[calc(100vw_-_32px)] max-h-[calc(100vh_-_32px)]  w-[620px] overflow-auto bg-background absolute top-1/2 left-1/2 z-30 -translate-x-1/2 -translate-y-1/2">
 
-      <div class="popup-heading">{{ settings.popup_recommend_heading }}      
-        <span class="close">
-          {% render 'icon-close', class: 'w-6 h-6' %}
-        </span>
-      </div>
 
-      <div class="popup-content">
-        {% for item in cart.items %}
-          {% if item.product == product %}
-            {% render 'line-item', line_item: item, show_desktop_quantity: true -%}
-          {% endif %}
-        {% endfor %}
-      </div>
       <div class="popup-footer product-list-footer">
-        {% for product in settings.popup_recommend_product %}
-          {% render 'product-card', product: product %}
-        {% endfor %}
+
       </div>
     </div>
   </modal-dialog>

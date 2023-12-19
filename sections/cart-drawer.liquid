@@ -96,6 +96,30 @@
             </div>
           </div>
         {%- endif -%}
+
+        {% if settings.popup_combo and product.metafields.custom.popup_upsell_condition != blank and template contains "product" %}
+          <div class="cart-drawer__recommendations">
+            {% if settings.popup_combo_heading %}
+              <div class="popup-heading">{{ settings.popup_combo_heading }}</div>
+            {% endif %}
+            {% if product.metafields.custom.popup_upsell_condition %}
+             <p class="pb-3 font-bold color-sale">{{ product.metafields.custom.popup_upsell_condition }}</p>
+            {% endif %}
+        
+            {% for product in product.metafields.custom.popup_upsell_combo.value %}
+              {% render 'product-quickbuy', product: product %}
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if settings.popup_recommend %}
+          <div class="cart-drawer__recommendations">
+            <div class="popup-heading">{{ settings.popup_recommend_heading }}</div>
+
+            {% for product in settings.popup_recommend_product %}
+              {% render 'product-quickbuy', product: product %}
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </div>
 
