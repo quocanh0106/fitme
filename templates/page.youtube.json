@@ -57,10 +57,9 @@
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
-        "autoplay": true,
+        "autoplay": false,
         "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/Clip-thong-tin-ve-fitme-sportswear.mp4",
-        "external_video_url": "",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=rCkhwVZLssI",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -109,7 +108,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner-trang-thong-tin-ve-brand-the-thao-gym-yoga-fitme-sportswear_1.jpg",
+        "image": "shopify:\/\/shop_images\/z4944205748156_77530c24b30b4b79389daf57f0f775a3_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -156,7 +155,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner-trang-thong-tin-ve-brand-the-thao-gym-yoga-fitme-sportswear_4.jpg",
+        "image": "shopify:\/\/shop_images\/DSC02062.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -202,7 +201,7 @@
         "49ec896f-7f98-4ae5-bbab-3a19f5dfb24d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-trang-thong-tin-ve-brand-the-thao-gym-yoga-fitme-sportswear_3.jpg",
+            "image": "shopify:\/\/shop_images\/DSC02332.jpg",
             "width_mode": "full_width",
             "max_width": 780,
             "mobile_max_width": 400
@@ -250,7 +249,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner-trang-thong-tin-ve-brand-the-thao-gym-yoga-fitme-sportswear_2.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled-1_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",

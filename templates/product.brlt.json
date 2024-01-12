@@ -75,19 +75,6 @@
             "payment_button_text_color": ""
           }
         },
-        "d111391f-9a17-4a1c-8849-2d2a6e15c645": {
-          "type": "offer",
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-box",
-            "icon_width": 24,
-            "title": "Vận chuyển",
-            "content": "<p>Miễn phí ship cho đơn hàng từ <strong>300.000 VNĐ<\/strong> trở lên<\/p>",
-            "background": "#eaf2ed",
-            "text_color": "#004f22"
-          }
-        },
         "9c302d3d-8947-4f86-a564-4fb3e546407c": {
           "type": "offer",
           "disabled": true,
@@ -100,6 +87,14 @@
             "content": "<p>Nhập mã <strong>FITMENEW <\/strong>để được giảm giá 10% cho đơn hàng đầu tiên<\/p>",
             "background": "#ffecec",
             "text_color": "#510000"
+          }
+        },
+        "f83c384d-9c84-4c98-a7f1-b30660e9efd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badges_e0c63105-e816-46ce-969b-26fb118f2a7a.jpg",
+            "alignment": "start",
+            "max_width": 500
           }
         },
         "d59febd3-132f-4a14-af33-d277393e4953": {
@@ -152,8 +147,8 @@
         "quantity_selector",
         "inventory",
         "buy_buttons",
-        "d111391f-9a17-4a1c-8849-2d2a6e15c645",
         "9c302d3d-8947-4f86-a564-4fb3e546407c",
+        "f83c384d-9c84-4c98-a7f1-b30660e9efd6",
         "d59febd3-132f-4a14-af33-d277393e4953",
         "9109fb43-01cf-4eab-96d7-d1d743313ce6",
         "5c194ed6-2953-4658-ab8a-94756bf25b25",
@@ -264,6 +259,7 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h4",
+        "headingitem_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "rgba(0,0,0,0)",

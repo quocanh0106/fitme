@@ -127,7 +127,7 @@
         "31b4e248-9a54-49a8-b42a-808e5f301fc5": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
+            "title": "Có thể phối với",
             "stack_products": true,
             "products_count": 5,
             "background": "",
@@ -259,6 +259,7 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h4",
+        "headingitem_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "rgba(0,0,0,0)",

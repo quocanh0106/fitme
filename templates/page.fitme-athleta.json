@@ -56,7 +56,7 @@
         "6a82a7fe-2ae4-4afe-8b91-80d19304d2e6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/quan-nu.webp",
+            "image": "shopify:\/\/shop_images\/banner-chuong-trinh-fitme-athlete_2.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -71,7 +71,7 @@
         "63b87503-033f-485b-b323-aed6f3067533": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC02062_1.webp",
+            "image": "shopify:\/\/shop_images\/banner-chuong-trinh-fitme-athlete_1.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -197,6 +197,7 @@
         "full_width": false,
         "subheading": "",
         "title": "ĐĂNG KÝ TẠI ĐÂY",
+        "heading_tag": "h2",
         "content": "",
         "text_position": "center",
         "contact_form_size": "large",

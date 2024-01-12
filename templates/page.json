@@ -33,7 +33,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/final_ngang_upscale_llFabric-and-Tech_Hero.webp",
+        "image": "shopify:\/\/shop_images\/cong-nghe-vai-fitme-sportswear.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -47,7 +47,7 @@
         "template--21279861080373__39bdb241-1fd9-4472-9da9-c611ad82b6f0-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-39.jpg",
+            "image": "shopify:\/\/shop_images\/vai-buttery_2.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -84,7 +84,7 @@
         "43c2efd8-4f57-4b49-91c6-f961305a9697": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-40.jpg",
+            "image": "shopify:\/\/shop_images\/vai-ultra-light_1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -121,7 +121,7 @@
         "003ccf64-f01d-484b-b91a-a5c549a9d96a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-41_1.jpg",
+            "image": "shopify:\/\/shop_images\/vai-performance_1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -158,7 +158,7 @@
         "99267388-4b9a-4b0e-8378-d57b1abb4572": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-42.jpg",
+            "image": "shopify:\/\/shop_images\/vai-essential_1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -195,7 +195,7 @@
         "e2fb3977-6576-45b1-b2ef-a7b2e1400b6a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-43.jpg",
+            "image": "shopify:\/\/shop_images\/vai-cotton-ribbed_1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -232,7 +232,7 @@
         "40b4b39e-63c3-41e6-8e9f-0741eee9d486": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-44.jpg",
+            "image": "shopify:\/\/shop_images\/vai-microfiber_1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -242,7 +242,7 @@
             "title": "MICROFIBER™",
             "content": "<p>Microfiber™ dòng chất liệu mỏng nhẹ và cực kì bền của chúng tôi. Thích hợp cho các hoạt động thể chất cần tính bền bỉ như Chạy bộ, leo núi, trekking<\/p><h3>ĐIỂM NHẤN<\/h3><ul><li>Siêu nhẹ, mướt<\/li><li>Kết cấu bền chặt<\/li><li>Thấm hút tốt<\/li><li>Công nghệ kháng khuẩn<\/li><\/ul>",
             "link_text": "Xem sản phẩm",
-            "link_url": "shopify:\/\/collections\/vải-duralight",
+            "link_url": "shopify:\/\/collections\/vai-microfiber",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
@@ -269,7 +269,7 @@
         "template--21556067238197__0782cef4-5aa2-4df4-91bd-12043f799b70-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_web-46.jpg",
+            "image": "shopify:\/\/shop_images\/vai-terry_1.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",

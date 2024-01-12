@@ -1,0 +1,94 @@
+tabs-component {
+  display: flex;
+  width: 100%;
+  margin-block-end: var(--section-outer-spacing-block);
+}
+tabs-component .tab-headings {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px max(var(--container-gutter),50% - var(--container-max-width) / 2);
+  background: rgb(var(--background));
+  z-index: 1;
+}
+tabs-component .tab-headings .serie.tab-heading {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+tabs-component .tab-details {
+  order: 1;
+  width: 100%;
+}
+
+tabs-component .tab-detail:not(.active) {
+  display: none;
+}
+tabs-component .tab-details .serie-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+}
+tabs-component .tab-details .serie-video {
+  width: 100%;
+  margin-bottom: 16px;
+}
+tabs-component .tab-details .serie-video iframe {
+  width: 100%;
+  max-width: 100%;
+}
+tabs-component .tab-details .serie-description {
+  position: relative;
+
+}
+tabs-component .tab-details .serie-description-intro {
+  border-bottom: 1px solid #ebeeee;
+  display: block;
+  width: 100%; 
+  margin-bottom: 16px;
+}
+tabs-component .tab-details .serie-description-intro:before {
+  content: 'Giới thiệu';
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+@media (min-width: 1150px) {
+  tabs-component .tab-headings {
+    padding: 0;
+    order: 1;
+    position: static;
+    max-width: 25%;
+  }
+  tabs-component .tab-details {
+    order: 2;
+    max-width: 75%;
+    padding-left: 20px;
+  }
+  tabs-component .tab-details .serie-title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+  tabs-component .tab-details .serie-video {
+    margin-bottom: 24px;
+  }
+  tabs-component .tab-details .serie-description {
+  
+  }
+  tabs-component .tab-details .serie-description-intro:before {
+    font-size: 20px;
+    text-underline-offset: 8px;
+  }
+}

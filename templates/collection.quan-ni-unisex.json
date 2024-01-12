@@ -6,7 +6,7 @@
         "template--21761763836213__11db0e10-314e-4c71-acae-186bf866c33a-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "QUẦN SHORT THỂ THAO NỮ",
+            "text": "QUẦN NỈ THỂ THAO NỮ",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -16,7 +16,6 @@
       "block_order": [
         "template--21761763836213__11db0e10-314e-4c71-acae-186bf866c33a-heading-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "large",

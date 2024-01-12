@@ -68,6 +68,7 @@
         },
         "inventory": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
           }
         },
@@ -272,6 +273,7 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h4",
+        "headingitem_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "rgba(0,0,0,0)",

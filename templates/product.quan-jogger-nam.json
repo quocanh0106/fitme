@@ -68,6 +68,7 @@
         },
         "inventory": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
           }
         },
@@ -82,44 +83,25 @@
             "payment_button_text_color": ""
           }
         },
-        "d111391f-9a17-4a1c-8849-2d2a6e15c645": {
-          "type": "offer",
+        "9e1b85af-71be-4fcd-9ef1-f9629683b980": {
+          "type": "image",
           "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-box",
-            "icon_width": 24,
-            "title": "Vận chuyển",
-            "content": "<p>Miễn phí ship cho đơn hàng từ <strong>300.000 VNĐ<\/strong> trở lên<\/p>",
-            "background": "#eaf2ed",
-            "text_color": "#004f22"
-          }
-        },
-        "9c302d3d-8947-4f86-a564-4fb3e546407c": {
-          "type": "offer",
-          "disabled": true,
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-percent",
-            "icon_width": 24,
-            "title": "Mã giảm giá",
-            "content": "<p>Nhập mã <strong>FITMENEW <\/strong>để được giảm giá 10% cho đơn hàng đầu tiên<\/p>",
-            "background": "#ffecec",
-            "text_color": "#510000"
+            "image": "shopify:\/\/shop_images\/badges_e0c63105-e816-46ce-969b-26fb118f2a7a.jpg",
+            "alignment": "start",
+            "max_width": 500
           }
         },
         "d59febd3-132f-4a14-af33-d277393e4953": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Quần jogger thể thao nam là một phần không thể thiếu trong tủ đồ của những người đàn ông đang tìm kiếm sự thoải mái và phong cách trong mọi hoạt động. Với thiết kế hiện đại năng động đây không chỉ là sự lựachọn đáng tin cậy mà còn là biểu tượng thời trang đẳng cấp trong thế giới streetwear<\/p>"
           }
         },
         "9109fb43-01cf-4eab-96d7-d1d743313ce6": {
           "type": "collapsible_text",
           "settings": {
             "title": "Mô tả sản phẩm",
-            "content": ""
+            "content": "<p>- Sử dụng chất vải Nylon Spandex mang đến sự linh hoạt thoải mái.<br\/><br\/>- Quần jogger nam: đai lưng co dãn và dây rút, giúp tạo ra sự ôm sát và thoải mái. Túi tiện lợi, có khóa kéo, làm tăng tính thực tế và ứng dụng trong quá trinh luyện tập<br\/><br\/>- Chất liệu co giãn nhẹ, công nghệ kháng khuẩn, thấm hút tạo cảm giác thoải mái dễ chịu<br\/><br\/>- Đường may kỹ, tinh tế, sản phẩm luôn được kiểm tra kỹ lưỡng trước khi đóng gói.<br\/><br\/>- Công nghệ in chuyển nhiệt giúp họa tiết in logo bền lâu, không bong tróc.<\/p>"
           }
         },
         "5c194ed6-2953-4658-ab8a-94756bf25b25": {
@@ -160,8 +142,7 @@
         "quantity_selector",
         "inventory",
         "buy_buttons",
-        "d111391f-9a17-4a1c-8849-2d2a6e15c645",
-        "9c302d3d-8947-4f86-a564-4fb3e546407c",
+        "9e1b85af-71be-4fcd-9ef1-f9629683b980",
         "d59febd3-132f-4a14-af33-d277393e4953",
         "9109fb43-01cf-4eab-96d7-d1d743313ce6",
         "5c194ed6-2953-4658-ab8a-94756bf25b25",
@@ -199,8 +180,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Co giãn 360°",
-            "content": "<p>Chất vải ôm sát cơ thể, mang lại cho bạn sự thoải mái và tự do vận động<\/p>"
+            "title": "Co giãn thoải mái",
+            "content": "<p>Tự do vận động<\/p>"
           }
         },
         "template--21279861342517__12b35c17-ea59-4f54-a9ec-57f684ab8ca8-item-2": {
@@ -241,8 +222,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Siêu mịn",
-            "content": "<p>Mang đến cho bạn cảm giác mềm mịn chưa từng có, mặc như chưa mặc<\/p>"
+            "title": "Siêu nhẹ",
+            "content": "<p>Mang đến cho bạn cảm giác siêu nhẹ, mặc như không mặc <\/p>"
           }
         },
         "db560b33-20a1-447f-8632-de2717379a8c": {
@@ -272,6 +253,7 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h4",
+        "headingitem_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "rgba(0,0,0,0)",

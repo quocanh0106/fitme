@@ -6,8 +6,8 @@
         "8bbb1918-5b9c-48be-a422-3dc9f53b9215": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_trang_chu_logo_259c21a8-4f54-4f24-8d88-79b640c96ec1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner_trang_chu_phone_7f568582-3d69-446c-bc66-e679bc2562fc.jpg",
+            "image": "shopify:\/\/shop_images\/banner-trang-chu-fitme-sportswear_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-trang-chu-fitme-sportswear_2.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -78,7 +78,7 @@
         "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ban_chay_fca36896-aa38-4731-a6d7-27a365caee0b.jpg",
+            "image": "shopify:\/\/shop_images\/banner-san-pham-ban-chay-cua-fitme-sportswear.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/ban-chay",
@@ -100,7 +100,7 @@
         "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bra_the_thao_c2be3ba8-8a3b-4128-9b40-d8837d99c2b0.jpg",
+            "image": "shopify:\/\/shop_images\/banner-ao-bra-the-thao-nu-fitme-sportswear.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/ao-bra-the-thao",
@@ -122,7 +122,7 @@
         "template--21761763868981__eac02d77-1f9b-4375-a70a-946f92141c0e-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/quan_legging_b6648570-de13-4b41-bc18-e8f4a76c881d.jpg",
+            "image": "shopify:\/\/shop_images\/banner-quan-legging-nu-fitme-sportswear.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/quan-legging-nu",
@@ -144,7 +144,7 @@
         "cccd40a2-0ad3-472d-9e20-3e2fd62080b2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hoodie_6d29aa97-9139-4dac-b337-7263736c8f34.jpg",
+            "image": "shopify:\/\/shop_images\/banner-hoodie-va-sweater-fitme-sportswear.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/hoodie-sweater",
@@ -202,8 +202,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/DSC02285.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/DSC02289_f49f42e0-1400-4c65-96f1-b26431d28231.jpg",
+        "image": "shopify:\/\/shop_images\/banner-quan-ao-tap-yoga-fitme-sportswear_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-quan-ao-tap-yoga-fitme-sportswear_2.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
@@ -354,8 +354,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner-nam_4d8500a2-47a2-4492-888d-a64fd3ec60d3.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/banner-nam-phone.jpg",
+        "image": "shopify:\/\/shop_images\/banner-quan-ao-the-thao-nam-fitme-sportswear_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-quan-ao-the-thao-nam-fitme-sportswear_1.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
@@ -416,8 +416,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner-nu_34980f30-17e4-48f1-a6b4-8522b59b5d67.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/banner-nu-phone_8bdf643c-176f-42d2-8045-e9d39aaaebac.jpg",
+        "image": "shopify:\/\/shop_images\/banner-quan-ao-tap-yoga-fitme-sportswear_4.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-quan-ao-tap-yoga-fitme-sportswear_3.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
@@ -523,8 +523,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Untitled-1_a6ffab20-a6cd-4f0e-addd-37341861ff97.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/DSC02036_501ad8b5-57d2-4bfa-b231-e251a06568ca.jpg",
+        "image": "shopify:\/\/shop_images\/banner-chuong-trinh-fitme-prize_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-chuong-trinh-fitme-prize_1.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#000000",
@@ -555,8 +555,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/2_2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/dth_3ddb1c8a-49d3-4733-9047-7a01b7a71bf1.jpg",
+        "image": "shopify:\/\/shop_images\/banner-fitme-newbie-choice_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-fitme-newbie-choice_1.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -571,7 +571,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/san-pham-nu_8e1efeb5-dfb7-46e1-bb36-5e00461bf673.jpg",
+            "image": "shopify:\/\/shop_images\/banner-quan-ao-tap-yoga-fitme-sportswear.jpg",
             "subheading": "",
             "title": "",
             "url": "shopify:\/\/collections\/san-pham-nu",
@@ -586,7 +586,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/san-pham-nam_5f7ea203-719a-4092-a34e-368e3c991111.jpg",
+            "image": "shopify:\/\/shop_images\/banner-quan-ao-the-thao-nam-fitme-sportswear.jpg",
             "subheading": "",
             "title": "",
             "url": "shopify:\/\/collections\/san-pham-nam",

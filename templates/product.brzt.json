@@ -83,17 +83,12 @@
             "payment_button_text_color": ""
           }
         },
-        "d111391f-9a17-4a1c-8849-2d2a6e15c645": {
-          "type": "offer",
+        "32f171f3-7436-4adc-a144-18da16b408c1": {
+          "type": "image",
           "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-box",
-            "icon_width": 24,
-            "title": "Vận chuyển",
-            "content": "<p>Miễn phí ship cho đơn hàng từ <strong>300.000 VNĐ<\/strong> trở lên<\/p>",
-            "background": "#eaf2ed",
-            "text_color": "#004f22"
+            "image": "shopify:\/\/shop_images\/badges_e0c63105-e816-46ce-969b-26fb118f2a7a.jpg",
+            "alignment": "start",
+            "max_width": 500
           }
         },
         "9c302d3d-8947-4f86-a564-4fb3e546407c": {
@@ -151,7 +146,7 @@
         "quantity_selector",
         "inventory",
         "buy_buttons",
-        "d111391f-9a17-4a1c-8849-2d2a6e15c645",
+        "32f171f3-7436-4adc-a144-18da16b408c1",
         "9c302d3d-8947-4f86-a564-4fb3e546407c",
         "d59febd3-132f-4a14-af33-d277393e4953",
         "9109fb43-01cf-4eab-96d7-d1d743313ce6",
@@ -262,6 +257,7 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h4",
+        "headingitem_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "rgba(0,0,0,0)",

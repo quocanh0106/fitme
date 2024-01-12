@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -23,6 +24,31 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "6fd4115d-f765-4557-9d48-d68d94ce9286": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21761765048629__6fd4115d-f765-4557-9d48-d68d94ce9286-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "ÁO BRA NỮ",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21761765048629__6fd4115d-f765-4557-9d48-d68d94ce9286-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "main": {
@@ -47,6 +73,7 @@
   },
   "order": [
     "banner",
+    "6fd4115d-f765-4557-9d48-d68d94ce9286",
     "main"
   ]
 }

@@ -7,6 +7,20 @@
         "content_width": "80ch"
       }
     },
+    "95a6708c-4ddc-442d-aada-5ae2f11c1fc5": {
+      "type": "video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=RuNLidkRgwI",
+        "poster": "shopify:\/\/shop_images\/ngay-1-tap-tho-co-hoanh-cac-bai-khoi-dong-cot-song-ngoi-21-ngay-yoga-co-ban-cho-nguoi-moi-bat-dau.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "45f4a788-ab62-41c8-a7cb-b6a714470800": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -188,6 +202,7 @@
   },
   "order": [
     "main",
+    "95a6708c-4ddc-442d-aada-5ae2f11c1fc5",
     "45f4a788-ab62-41c8-a7cb-b6a714470800",
     "f00671f4-4a99-4d01-ab5f-5ace2c2a529f",
     "9eb46bf3-2e61-4716-a7b0-04e69023a315",

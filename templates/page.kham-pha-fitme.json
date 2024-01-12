@@ -14,8 +14,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/2_2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/dth_3ddb1c8a-49d3-4733-9047-7a01b7a71bf1.jpg",
+        "image": "shopify:\/\/shop_images\/banner-fitme-newbie-choice_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner-fitme-newbie-choice_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -123,7 +123,7 @@
         "template--21788488761653__f94bc872-f491-445c-9c19-954645ee3250-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/review_2.jpg",
+            "image": "shopify:\/\/shop_images\/review-quan-legging-dai-tap-yoga-cap-ngang-zeta-den.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/quan-legging-dai-yoga-zeta-den",
@@ -145,7 +145,7 @@
         "template--21788488761653__f94bc872-f491-445c-9c19-954645ee3250-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/review_3.jpg",
+            "image": "shopify:\/\/shop_images\/review-quan-legging-dai-tap-gym-cap-cheo-cover23-den.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/quan-legging-dai-tap-gym-cover23-den",
@@ -167,7 +167,7 @@
         "template--21788488761653__f94bc872-f491-445c-9c19-954645ee3250-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/review_1.jpg",
+            "image": "shopify:\/\/shop_images\/review-ao-thun-tap-gyn-nu-sigma-den.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/ao-thun-tap-gym-nu-sigma-den",
@@ -189,7 +189,7 @@
         "b36f02aa-ceb1-4f1f-b0df-bf1036206b8c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/review_4.jpg",
+            "image": "shopify:\/\/shop_images\/review-quan-jogger-the-thao-nu-logo-theu-den.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/quan-jogger-the-thao-nu-den",
@@ -230,7 +230,7 @@
         "template--21788488761653__1c071102-6e4a-4daf-8bfa-a530769754be-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/most_buy_legging_32e12f5f-a758-44c0-86fb-fe09a708639f.jpg",
+            "image": "shopify:\/\/shop_images\/quan-legging-duoc-yeu-thich-nhat-cua-fitme-sportswear.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -268,7 +268,7 @@
           "type": "collection",
           "settings": {
             "collection": "quan-legging-cap-ngang",
-            "image": "shopify:\/\/shop_images\/quan_legging_cap_ngang_fda213bf-b96a-447f-8e59-af6907f26322.jpg",
+            "image": "shopify:\/\/shop_images\/quan-legging-dai-tap-yoga-cap-ngang_2.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -283,7 +283,7 @@
           "type": "collection",
           "settings": {
             "collection": "quan-legging-cap-cheo",
-            "image": "shopify:\/\/shop_images\/legging_cap_cheo_36dec9ae-f902-4327-b5f6-0ea737d1255a.jpg",
+            "image": "shopify:\/\/shop_images\/quan-legging-dai-tap-gym-cap-cheo-cover23_2.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -357,7 +357,7 @@
         "template--21788488761653__1fab11bb-ed44-4404-b827-8c08144c53fb-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/den_0d73df29-006e-44e1-9203-01bd6de64b86.jpg",
+            "image": "shopify:\/\/shop_images\/cac-mau-ban-chay-cua-fitme_2.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/san-pham-mau-den",
@@ -379,7 +379,7 @@
         "template--21788488761653__1fab11bb-ed44-4404-b827-8c08144c53fb-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/XAM_XANH_eee74770-f256-4552-bf31-4768fbc17814.jpg",
+            "image": "shopify:\/\/shop_images\/cac-mau-ban-chay-cua-fitme_1.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/san-pham-mau-xam-xanh",
@@ -401,7 +401,7 @@
         "template--21788488761653__1fab11bb-ed44-4404-b827-8c08144c53fb-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MIDNIGHT.jpg",
+            "image": "shopify:\/\/shop_images\/cac-mau-ban-chay-cua-fitme_3.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/san-pham-mau-midnight-blue",
@@ -423,7 +423,7 @@
         "820a9c60-2290-4181-9f48-21603d1ea67f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAND.jpg",
+            "image": "shopify:\/\/shop_images\/cac-mau-ban-chay-cua-fitme_4.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/san-pham-mau-sand",

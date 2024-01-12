@@ -15,6 +15,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
+    <meta http-equiv="Cache-control" content="public">
 
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
 
@@ -55,7 +56,11 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
     <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
 
-    {{ content_for_header }}
+    {%- capture header_scripts -%}
+      {{ content_for_header }}
+    {%- endcapture -%}
+
+    {%- render 'header-scripts', content: header_scripts, unload_apps: true, remove_apps: remove_apps -%}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
@@ -140,5 +145,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {% render 'popup-notify-cart' %}
       {% endif %}
     </main>
+
+    {%- render 'delay-load', urls: urls, snippets: '', on_delay_load: on_delay_load, load_apps: true, delay: 1000, delay_load: true -%}
+
   </body>
 </html>
