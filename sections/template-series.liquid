@@ -10,6 +10,7 @@
     <div class="tab-details">
       {% for clip in metaobject.clips.value %}
         <div class="serie tab-detail{% if forloop.first %} active{% endif %}" data-id="tab-{{ forloop.index }}">
+          
           <h2 class="serie-title">{{ clip.title.value }}</h2>
           <div class="serie-video">
             {{ clip.video.value }}
@@ -21,11 +22,18 @@
         </div>
       {% endfor %}
     </div>
-    <div class="tab-headings">
-      {% for clip in metaobject.clips.value %}
-        <div class="serie tab-heading{% if forloop.first %} active{% endif %}" data-id="tab-{{ forloop.index }}" title="{{ clip.title.value }}">{{ clip.title.value }}</div>
-      {% endfor %}
-    </div>
+    <select-toggle class="tab-headings clickout-accordion">
+      <div class="details">
+        <div class="tab-headingList">
+          {% for clip in metaobject.clips.value %}
+            <div class="serie tab-heading{% if forloop.first %} active{% endif %}" data-id="tab-{{ forloop.index }}" title="{{ clip.title.value }}">{{ clip.title.value }}</div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="summary">
+        <button type="button" class="btn">Danh sách nội dung</button>
+      </div>
+    </select-toggle>
   </tabs-component>
 </div>
 

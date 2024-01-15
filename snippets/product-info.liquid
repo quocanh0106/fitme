@@ -89,7 +89,7 @@
             {%- capture accordion_title -%}{{ 'product.general.description' | t }}{%- endcapture -%}
             {%- capture accordion_content -%}<div class="prose">{{ product.description }}</div>{%- endcapture -%}
 
-            {%- render 'accordion', title: accordion_title, content: accordion_content, class: 'product-info__accordion', block: block -%}
+            {%- render 'accordion', title: accordion_title, content: accordion_content, class: 'product-info__accordion', heading_tag: 'h2', block: block -%}
           {%- endif -%}
         {%- else -%}
           {%- if product.description != blank -%}
@@ -234,7 +234,7 @@
       {%- when 'collapsible_text' -%}
         {%- if block.settings.title != blank and block.settings.content != blank -%}
           {%- capture accordion_content -%}<div class="prose">{{ block.settings.content }}</div>{%- endcapture -%}
-          {%- render 'accordion', title: block.settings.title, content: accordion_content, class: 'product-info__accordion', block: block -%}
+          {%- render 'accordion', title: block.settings.title, content: accordion_content, class: 'product-info__accordion', heading_tag: 'h2', block: block -%}
         {%- endif -%}
 
       {%- when 'image' -%}

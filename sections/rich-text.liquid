@@ -22,9 +22,9 @@
 
           {%- when 'heading' -%}
             {%- if block.settings.text != blank -%}
-              <p class="{{ block.settings.heading_tag }} hyphenate" {{ block.shopify_attributes }}>
+              <{{ block.settings.heading_tag }} class="h1 hyphenate" {{ block.shopify_attributes }}>
                 {%- render 'styled-text', content: block.settings.text, text_color: block.settings.text_color, gradient: block.settings.gradient -%}
-              </p>
+              </{{ block.settings.heading_tag }}>
             {%- endif -%}
 
           {%- when 'richtext' -%}
@@ -233,12 +233,8 @@
         {
           "type": "select",
           "id": "heading_tag",
-          "label": "Style",
+          "label": "Heading tag",
           "options": [
-            {
-              "value": "h0",
-              "label": "H0"
-            },
             {
               "value": "h1",
               "label": "H1"
@@ -262,9 +258,13 @@
             {
               "value": "h6",
               "label": "H6"
+            }, 
+            {
+              "value": "p",
+              "label": "Paragraph"
             }
           ],
-          "default": "h1"
+          "default": "p"
         },
         {
           "type": "color",

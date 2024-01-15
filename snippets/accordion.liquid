@@ -26,10 +26,10 @@ Supported parameters
       {%- if icon -%}
         <div class="text-with-icon">
           {%- render 'icon' with icon -%}
-          <span {% if size == 'lg' %}class="h6"{% endif %}>{{- title | escape -}}</span>
+          <{{ heading_tag | default: 'span' }} {% if size == 'lg' %}class="h6"{% endif %}>{{- title | escape -}}</{{ heading_tag | default: 'span' }}>
         </div>
       {%- else -%}
-        <span {% if size == 'lg' %}class="h6"{% endif %}>{{- title | escape -}}</span>
+        <{{ heading_tag | default: 'span' }} {% if size == 'lg' %}class="h6"{% endif %}>{{- title | escape -}}</{{ heading_tag | default: 'span' }}>
       {%- endif -%}
 
       <span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate">{%- render 'icon' with 'chevron-bottom-small' -%}</span>
