@@ -76,7 +76,19 @@ tabs-component .tab-details .serie-description-intro:before {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
-
+tabs-component .tab-details .serie-navigation {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+  width: fit-content;
+  margin-left: auto;
+}
+tabs-component .tab-details .serie-navigation button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 @media (min-width: 1150px) {
   tabs-component .tab-headings {
     padding: 12px;
@@ -109,6 +121,7 @@ tabs-component .tab-details .serie-description-intro:before {
     border: 1px solid #ebeeee;
     border-radius: 12px;
   }
+
   tabs-component .tab-details .serie-title {
     font-size: 28px;
     line-height: 32px;
@@ -122,9 +135,17 @@ tabs-component .tab-details .serie-description-intro:before {
     text-underline-offset: 8px;
   }
 }
-select-toggle .summary button {
+select-toggle .summary button.main-btn {
   width: 100%;
   cursor: pointer;
+}
+select-toggle .summary button {
+  height: 50px;
+}
+select-toggle .summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 select-toggle .details {
   overflow: hidden; 
@@ -155,5 +176,7 @@ select-toggle.active .details {
     margin-bottom: 0!important;  
     max-height: 100%!important;  
   }
-  
+  .lg\:hidden {
+    display: none!important;  
+  }
 }

@@ -15,14 +15,17 @@ class TabsComponent extends HTMLElement {
       const targetId = clickedTab.dataset.id;
       this.hideTab(activeTabId);
       this.showTab(targetId);
-      activeTab.classList.remove('active');
-      clickedTab.classList.add('active');
+      this.querySelectorAll('.tab-heading.active').forEach((tab) => {
+        tab.classList.remove('active');
+      })
+      this.querySelectorAll(`.tab-heading[data-id='${targetId}'`).forEach((tab) => {
+        tab.classList.add('active');
+      })
     }
   }
 
   hideTab(tabId) {
     this.querySelector(`.tab-detail[data-id='${tabId}']`).classList.remove('active');
-
   }
 
   showTab(tabId) {

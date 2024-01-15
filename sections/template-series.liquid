@@ -8,9 +8,17 @@
   </div>
   <tabs-component class="series-wrapper">
     <div class="tab-details">
+      {{ metaobject.clip.value.size }}
       {% for clip in metaobject.clips.value %}
         <div class="serie tab-detail{% if forloop.first %} active{% endif %}" data-id="tab-{{ forloop.index }}">
-          
+          <div class="serie-navigation">
+            {% unless forloop.first %}
+              <button type="button" class="btn button--subdued tab-heading" data-id="tab-{{ forloop.index | minus: 1 }}">{%- render 'icon' with 'chevron-left', direction_aware: true -%} Bài tập trước</button>
+            {% endunless %}
+            {% unless forloop.last %}
+              <button type="button" class="btn tab-heading" data-id="tab-{{ forloop.index | plus: 1 }}">Hoàn thành và tiếp tục {%- render 'icon' with 'chevron-right', direction_aware: true -%}</button>
+            {% endunless %}
+          </div>
           <h2 class="serie-title">{{ clip.title.value }}</h2>
           <div class="serie-video">
             {{ clip.video.value }}
@@ -31,7 +39,7 @@
         </div>
       </div>
       <div class="summary">
-        <button type="button" class="btn">Danh sách nội dung</button>
+        <button type="button" class="btn main-btn">Danh sách nội dung</button>
       </div>
     </select-toggle>
   </tabs-component>
